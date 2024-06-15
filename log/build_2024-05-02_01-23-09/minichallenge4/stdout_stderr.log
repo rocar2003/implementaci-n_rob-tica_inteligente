@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/minichallenge4/minichallenge4.egg-info
+writing ../../build/minichallenge4/minichallenge4.egg-info/PKG-INFO
+writing dependency_links to ../../build/minichallenge4/minichallenge4.egg-info/dependency_links.txt
+writing entry points to ../../build/minichallenge4/minichallenge4.egg-info/entry_points.txt
+writing requirements to ../../build/minichallenge4/minichallenge4.egg-info/requires.txt
+writing top-level names to ../../build/minichallenge4/minichallenge4.egg-info/top_level.txt
+writing manifest file '../../build/minichallenge4/minichallenge4.egg-info/SOURCES.txt'
+reading manifest file '../../build/minichallenge4/minichallenge4.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/minichallenge4/minichallenge4.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robertog/ros2_ws/build/minichallenge4/build
+creating /home/robertog/ros2_ws/build/minichallenge4/build/lib
+creating /home/robertog/ros2_ws/build/minichallenge4/build/lib/minichallenge4
+copying minichallenge4/__init__.py -> /home/robertog/ros2_ws/build/minichallenge4/build/lib/minichallenge4
+copying minichallenge4/traffic_lights.py -> /home/robertog/ros2_ws/build/minichallenge4/build/lib/minichallenge4
+running install
+running install_lib
+creating /home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages/minichallenge4
+copying /home/robertog/ros2_ws/build/minichallenge4/build/lib/minichallenge4/__init__.py -> /home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages/minichallenge4
+copying /home/robertog/ros2_ws/build/minichallenge4/build/lib/minichallenge4/traffic_lights.py -> /home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages/minichallenge4
+byte-compiling /home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages/minichallenge4/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages/minichallenge4/traffic_lights.py to traffic_lights.cpython-310.pyc
+running install_data
+creating /home/robertog/ros2_ws/install/minichallenge4/share/ament_index
+creating /home/robertog/ros2_ws/install/minichallenge4/share/ament_index/resource_index
+creating /home/robertog/ros2_ws/install/minichallenge4/share/ament_index/resource_index/packages
+copying resource/minichallenge4 -> /home/robertog/ros2_ws/install/minichallenge4/share/ament_index/resource_index/packages
+copying package.xml -> /home/robertog/ros2_ws/install/minichallenge4/share/minichallenge4
+running install_egg_info
+Copying ../../build/minichallenge4/minichallenge4.egg-info to /home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages/minichallenge4-0.0.0-py3.10.egg-info
+running install_scripts
+Installing traffic_lights script to /home/robertog/ros2_ws/install/minichallenge4/lib/minichallenge4
+writing list of installed files to '/home/robertog/ros2_ws/build/minichallenge4/install.log'

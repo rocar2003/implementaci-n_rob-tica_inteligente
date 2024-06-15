@@ -1,0 +1,6 @@
+source;share/gtg_ao/hook/pythonpath.ps1
+source;share/gtg_ao/hook/pythonpath.dsv
+source;share/gtg_ao/hook/pythonpath.sh
+source;share/gtg_ao/hook/ament_prefix_path.ps1
+source;share/gtg_ao/hook/ament_prefix_path.dsv
+source;share/gtg_ao/hook/ament_prefix_path.sh

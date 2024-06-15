@@ -1,0 +1,37 @@
+[2.833s] Invoking command in '/home/robertog/ros2_ws/src/programming_assignment': PYTHONPATH=/home/robertog/ros2_ws/build/programming_assignment/prefix_override:/home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/programming_assignment build --build-base /home/robertog/ros2_ws/build/programming_assignment/build install --record /home/robertog/ros2_ws/build/programming_assignment/install.log --single-version-externally-managed install_data
+[3.184s] running egg_info
+[3.185s] creating ../../build/programming_assignment/programming_assignment.egg-info
+[3.185s] writing ../../build/programming_assignment/programming_assignment.egg-info/PKG-INFO
+[3.185s] writing dependency_links to ../../build/programming_assignment/programming_assignment.egg-info/dependency_links.txt
+[3.186s] writing entry points to ../../build/programming_assignment/programming_assignment.egg-info/entry_points.txt
+[3.186s] writing requirements to ../../build/programming_assignment/programming_assignment.egg-info/requires.txt
+[3.186s] writing top-level names to ../../build/programming_assignment/programming_assignment.egg-info/top_level.txt
+[3.186s] writing manifest file '../../build/programming_assignment/programming_assignment.egg-info/SOURCES.txt'
+[3.189s] reading manifest file '../../build/programming_assignment/programming_assignment.egg-info/SOURCES.txt'
+[3.190s] writing manifest file '../../build/programming_assignment/programming_assignment.egg-info/SOURCES.txt'
+[3.190s] running build
+[3.190s] running build_py
+[3.190s] creating /home/robertog/ros2_ws/build/programming_assignment/build
+[3.191s] creating /home/robertog/ros2_ws/build/programming_assignment/build/lib
+[3.191s] creating /home/robertog/ros2_ws/build/programming_assignment/build/lib/programming_assignment
+[3.191s] copying programming_assignment/__init__.py -> /home/robertog/ros2_ws/build/programming_assignment/build/lib/programming_assignment
+[3.191s] copying programming_assignment/forward_kinematics.py -> /home/robertog/ros2_ws/build/programming_assignment/build/lib/programming_assignment
+[3.192s] running install
+[3.192s] running install_lib
+[3.193s] creating /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment
+[3.194s] copying /home/robertog/ros2_ws/build/programming_assignment/build/lib/programming_assignment/__init__.py -> /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment
+[3.194s] copying /home/robertog/ros2_ws/build/programming_assignment/build/lib/programming_assignment/forward_kinematics.py -> /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment
+[3.195s] byte-compiling /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment/__init__.py to __init__.cpython-310.pyc
+[3.195s] byte-compiling /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment/forward_kinematics.py to forward_kinematics.cpython-310.pyc
+[3.196s] running install_data
+[3.196s] creating /home/robertog/ros2_ws/install/programming_assignment/share/ament_index
+[3.196s] creating /home/robertog/ros2_ws/install/programming_assignment/share/ament_index/resource_index
+[3.196s] creating /home/robertog/ros2_ws/install/programming_assignment/share/ament_index/resource_index/packages
+[3.196s] copying resource/programming_assignment -> /home/robertog/ros2_ws/install/programming_assignment/share/ament_index/resource_index/packages
+[3.196s] copying package.xml -> /home/robertog/ros2_ws/install/programming_assignment/share/programming_assignment
+[3.196s] running install_egg_info
+[3.199s] Copying ../../build/programming_assignment/programming_assignment.egg-info to /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment-0.0.0-py3.10.egg-info
+[3.200s] running install_scripts
+[3.226s] Installing forward_kinematics script to /home/robertog/ros2_ws/install/programming_assignment/lib/programming_assignment
+[3.226s] writing list of installed files to '/home/robertog/ros2_ws/build/programming_assignment/install.log'
+[3.296s] Invoked command in '/home/robertog/ros2_ws/src/programming_assignment' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/programming_assignment/prefix_override:/home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/programming_assignment build --build-base /home/robertog/ros2_ws/build/programming_assignment/build install --record /home/robertog/ros2_ws/build/programming_assignment/install.log --single-version-externally-managed install_data

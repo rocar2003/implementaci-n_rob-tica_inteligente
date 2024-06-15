@@ -1,0 +1,22 @@
+[4.103s] Invoking command in '/home/robertog/ros2_ws/src/gtg_ao': PYTHONPATH=/home/robertog/ros2_ws/build/gtg_ao/prefix_override:/home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gtg_ao build --build-base /home/robertog/ros2_ws/build/gtg_ao/build install --record /home/robertog/ros2_ws/build/gtg_ao/install.log --single-version-externally-managed install_data
+[4.608s] running egg_info
+[4.609s] writing ../../build/gtg_ao/gtg_ao.egg-info/PKG-INFO
+[4.610s] writing dependency_links to ../../build/gtg_ao/gtg_ao.egg-info/dependency_links.txt
+[4.610s] writing entry points to ../../build/gtg_ao/gtg_ao.egg-info/entry_points.txt
+[4.611s] writing requirements to ../../build/gtg_ao/gtg_ao.egg-info/requires.txt
+[4.611s] writing top-level names to ../../build/gtg_ao/gtg_ao.egg-info/top_level.txt
+[4.615s] reading manifest file '../../build/gtg_ao/gtg_ao.egg-info/SOURCES.txt'
+[4.617s] writing manifest file '../../build/gtg_ao/gtg_ao.egg-info/SOURCES.txt'
+[4.617s] running build
+[4.617s] running build_py
+[4.618s] running install
+[4.619s] running install_lib
+[4.625s] running install_data
+[4.626s] running install_egg_info
+[4.629s] removing '/home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages/gtg_ao-0.0.0-py3.10.egg-info' (and everything under it)
+[4.630s] Copying ../../build/gtg_ao/gtg_ao.egg-info to /home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages/gtg_ao-0.0.0-py3.10.egg-info
+[4.632s] running install_scripts
+[4.675s] Installing avoid_obstacles script to /home/robertog/ros2_ws/install/gtg_ao/lib/gtg_ao
+[4.675s] Installing go_to_goal script to /home/robertog/ros2_ws/install/gtg_ao/lib/gtg_ao
+[4.676s] writing list of installed files to '/home/robertog/ros2_ws/build/gtg_ao/install.log'
+[4.967s] Invoked command in '/home/robertog/ros2_ws/src/gtg_ao' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/gtg_ao/prefix_override:/home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gtg_ao build --build-base /home/robertog/ros2_ws/build/gtg_ao/build install --record /home/robertog/ros2_ws/build/gtg_ao/install.log --single-version-externally-managed install_data

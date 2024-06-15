@@ -1,0 +1,29 @@
+[3.821s] Invoking command in '/home/robertog/ros2_ws/src/mobile_robotics': PYTHONPATH=/home/robertog/ros2_ws/build/mobile_robotics/prefix_override:/home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mobile_robotics build --build-base /home/robertog/ros2_ws/build/mobile_robotics/build install --record /home/robertog/ros2_ws/build/mobile_robotics/install.log --single-version-externally-managed install_data
+[4.271s] running egg_info
+[4.271s] writing ../../build/mobile_robotics/mobile_robotics.egg-info/PKG-INFO
+[4.271s] writing dependency_links to ../../build/mobile_robotics/mobile_robotics.egg-info/dependency_links.txt
+[4.272s] writing entry points to ../../build/mobile_robotics/mobile_robotics.egg-info/entry_points.txt
+[4.272s] writing requirements to ../../build/mobile_robotics/mobile_robotics.egg-info/requires.txt
+[4.272s] writing top-level names to ../../build/mobile_robotics/mobile_robotics.egg-info/top_level.txt
+[4.277s] reading manifest file '../../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'
+[4.278s] writing manifest file '../../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'
+[4.279s] running build
+[4.279s] running build_py
+[4.280s] copying mobile_robotics/avoid_obstacles.py -> /home/robertog/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics
+[4.281s] copying mobile_robotics/follower.py -> /home/robertog/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics
+[4.281s] running install
+[4.281s] running install_lib
+[4.283s] copying /home/robertog/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics/avoid_obstacles.py -> /home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[4.283s] copying /home/robertog/ros2_ws/build/mobile_robotics/build/lib/mobile_robotics/follower.py -> /home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics
+[4.284s] byte-compiling /home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/avoid_obstacles.py to avoid_obstacles.cpython-310.pyc
+[4.285s] byte-compiling /home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics/follower.py to follower.cpython-310.pyc
+[4.286s] running install_data
+[4.286s] running install_egg_info
+[4.289s] removing '/home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics-0.0.0-py3.10.egg-info' (and everything under it)
+[4.289s] Copying ../../build/mobile_robotics/mobile_robotics.egg-info to /home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics-0.0.0-py3.10.egg-info
+[4.291s] running install_scripts
+[4.332s] Installing follower script to /home/robertog/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[4.332s] Installing ros_color_tracker script to /home/robertog/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[4.333s] Installing test_node script to /home/robertog/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[4.333s] writing list of installed files to '/home/robertog/ros2_ws/build/mobile_robotics/install.log'
+[4.747s] Invoked command in '/home/robertog/ros2_ws/src/mobile_robotics' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/mobile_robotics/prefix_override:/home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mobile_robotics build --build-base /home/robertog/ros2_ws/build/mobile_robotics/build install --record /home/robertog/ros2_ws/build/mobile_robotics/install.log --single-version-externally-managed install_data

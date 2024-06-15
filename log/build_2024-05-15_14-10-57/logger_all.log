@@ -1,0 +1,440 @@
+[0.130s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.130s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74076b019ed0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74076b1af820>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74076b1af820>>, mixin_verb=('build',))
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.333s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robertog/ros2_ws'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini1_checo) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini1_checo) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini1_checo) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini1_checo) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini1_checo) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini1_checo) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini1_checo) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini1_checo) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/mini1_checo) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mini1_checo' with type 'ros.ament_python' and name 'mini1_checo'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge3) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge3) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge3) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge3) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge3) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge3) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge3) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge3) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge3) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/minichallenge3' with type 'ros.ament_python' and name 'minichallenge3'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/minichallenge4' with type 'ros.ament_python' and name 'minichallenge4'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4_bueno) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4_bueno) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4_bueno) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4_bueno) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4_bueno) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4_bueno) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4_bueno) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4_bueno) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/minichallenge4_bueno) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/minichallenge4_bueno' with type 'ros.ament_python' and name 'minichallenge4_bueno'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robotics) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobile_robotics' with type 'ros.ament_python' and name 'mobile_robotics'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_cv_example) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_cv_example) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_cv_example) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_cv_example) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_cv_example) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_cv_example) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_cv_example) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_cv_example) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/open_cv_example) by extension 'ros'
+[0.356s] DEBUG:colcon.colcon_core.package_identification:Package 'src/open_cv_example' with type 'ros.ament_python' and name 'open_cv_example'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/two_wheeled_robot' with type 'ros.ament_cmake' and name 'two_wheeled_robot'
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.357s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.394s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.395s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.399s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/humble
+[0.401s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mini1_checo' build argument 'cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mini1_checo' build argument 'cmake_target' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mini1_checo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mini1_checo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mini1_checo' build argument 'cmake_clean_first' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mini1_checo' build argument 'cmake_force_configure' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mini1_checo' build argument 'ament_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mini1_checo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mini1_checo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'mini1_checo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robertog/ros2_ws/build/mini1_checo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robertog/ros2_ws/install/mini1_checo', 'merge_install': False, 'path': '/home/robertog/ros2_ws/src/mini1_checo', 'symlink_install': False, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'minichallenge3' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'minichallenge3' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'minichallenge3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'minichallenge3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'minichallenge3' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'minichallenge3' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'minichallenge3' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'minichallenge3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'minichallenge3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'minichallenge3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robertog/ros2_ws/build/minichallenge3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robertog/ros2_ws/install/minichallenge3', 'merge_install': False, 'path': '/home/robertog/ros2_ws/src/minichallenge3', 'symlink_install': False, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'minichallenge4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robertog/ros2_ws/build/minichallenge4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robertog/ros2_ws/install/minichallenge4', 'merge_install': False, 'path': '/home/robertog/ros2_ws/src/minichallenge4', 'symlink_install': False, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4_bueno' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4_bueno' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4_bueno' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4_bueno' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4_bueno' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4_bueno' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4_bueno' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4_bueno' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'minichallenge4_bueno' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'minichallenge4_bueno' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robertog/ros2_ws/build/minichallenge4_bueno', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robertog/ros2_ws/install/minichallenge4_bueno', 'merge_install': False, 'path': '/home/robertog/ros2_ws/src/minichallenge4_bueno', 'symlink_install': False, 'test_result_base': None}
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'mobile_robotics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.453s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_robotics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robertog/ros2_ws/build/mobile_robotics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robertog/ros2_ws/install/mobile_robotics', 'merge_install': False, 'path': '/home/robertog/ros2_ws/src/mobile_robotics', 'symlink_install': False, 'test_result_base': None}
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'open_cv_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.454s] DEBUG:colcon.colcon_core.verb:Building package 'open_cv_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robertog/ros2_ws/build/open_cv_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robertog/ros2_ws/install/open_cv_example', 'merge_install': False, 'path': '/home/robertog/ros2_ws/src/open_cv_example', 'symlink_install': False, 'test_result_base': None}
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_target' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.454s] DEBUG:colcon.colcon_core.verb:Building package 'two_wheeled_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robertog/ros2_ws/build/two_wheeled_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robertog/ros2_ws/install/two_wheeled_robot', 'merge_install': False, 'path': '/home/robertog/ros2_ws/src/two_wheeled_robot', 'symlink_install': False, 'test_result_base': None}
+[0.454s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.455s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.456s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robertog/ros2_ws/src/mini1_checo' with build type 'ament_python'
+[0.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini1_checo', 'ament_prefix_path')
+[0.459s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/mini1_checo/share/mini1_checo/hook/ament_prefix_path.ps1'
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/mini1_checo/share/mini1_checo/hook/ament_prefix_path.dsv'
+[0.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/mini1_checo/share/mini1_checo/hook/ament_prefix_path.sh'
+[0.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.466s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robertog/ros2_ws/src/minichallenge3' with build type 'ament_python'
+[0.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('minichallenge3', 'ament_prefix_path')
+[0.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/minichallenge3/share/minichallenge3/hook/ament_prefix_path.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/minichallenge3/share/minichallenge3/hook/ament_prefix_path.dsv'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/minichallenge3/share/minichallenge3/hook/ament_prefix_path.sh'
+[0.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.471s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robertog/ros2_ws/src/minichallenge4' with build type 'ament_python'
+[0.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('minichallenge4', 'ament_prefix_path')
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/minichallenge4/share/minichallenge4/hook/ament_prefix_path.ps1'
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/minichallenge4/share/minichallenge4/hook/ament_prefix_path.dsv'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/minichallenge4/share/minichallenge4/hook/ament_prefix_path.sh'
+[0.473s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.473s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.477s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robertog/ros2_ws/src/minichallenge4_bueno' with build type 'ament_python'
+[0.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('minichallenge4_bueno', 'ament_prefix_path')
+[0.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/minichallenge4_bueno/share/minichallenge4_bueno/hook/ament_prefix_path.ps1'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/minichallenge4_bueno/share/minichallenge4_bueno/hook/ament_prefix_path.dsv'
+[0.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/minichallenge4_bueno/share/minichallenge4_bueno/hook/ament_prefix_path.sh'
+[0.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.482s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robertog/ros2_ws/src/mobile_robotics' with build type 'ament_python'
+[0.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robotics', 'ament_prefix_path')
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/mobile_robotics/share/mobile_robotics/hook/ament_prefix_path.ps1'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/mobile_robotics/share/mobile_robotics/hook/ament_prefix_path.dsv'
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/mobile_robotics/share/mobile_robotics/hook/ament_prefix_path.sh'
+[0.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.488s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/robertog/ros2_ws/src/open_cv_example' with build type 'ament_python'
+[0.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_cv_example', 'ament_prefix_path')
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/open_cv_example/share/open_cv_example/hook/ament_prefix_path.ps1'
+[0.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/open_cv_example/share/open_cv_example/hook/ament_prefix_path.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/open_cv_example/share/open_cv_example/hook/ament_prefix_path.sh'
+[0.491s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.491s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.494s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robertog/ros2_ws/src/two_wheeled_robot' with build type 'ament_cmake'
+[0.494s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robertog/ros2_ws/src/two_wheeled_robot'
+[0.494s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.494s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.806s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robertog/ros2_ws/src/mini1_checo'
+[0.807s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.807s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.113s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robertog/ros2_ws/src/minichallenge3'
+[1.114s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.421s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robertog/ros2_ws/src/minichallenge4'
+[1.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.729s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robertog/ros2_ws/src/minichallenge4_bueno'
+[1.730s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.031s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robertog/ros2_ws/src/mobile_robotics'
+[2.032s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.032s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.335s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/robertog/ros2_ws/src/open_cv_example'
+[2.335s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.335s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robertog/ros2_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robertog/ros2_ws/build/two_wheeled_robot -- -j12 -l12
+[2.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robertog/ros2_ws/src/minichallenge4_bueno': PYTHONPATH=/home/robertog/ros2_ws/build/minichallenge4_bueno/prefix_override:/home/robertog/ros2_ws/install/minichallenge4_bueno/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/minichallenge4_bueno build --build-base /home/robertog/ros2_ws/build/minichallenge4_bueno/build install --record /home/robertog/ros2_ws/build/minichallenge4_bueno/install.log --single-version-externally-managed install_data
+[2.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robertog/ros2_ws/src/open_cv_example': PYTHONPATH=/home/robertog/ros2_ws/build/open_cv_example/prefix_override:/home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/open_cv_example build --build-base /home/robertog/ros2_ws/build/open_cv_example/build install --record /home/robertog/ros2_ws/build/open_cv_example/install.log --single-version-externally-managed install_data
+[2.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robertog/ros2_ws/src/minichallenge4': PYTHONPATH=/home/robertog/ros2_ws/build/minichallenge4/prefix_override:/home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/minichallenge4 build --build-base /home/robertog/ros2_ws/build/minichallenge4/build install --record /home/robertog/ros2_ws/build/minichallenge4/install.log --single-version-externally-managed install_data
+[2.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robertog/ros2_ws/src/minichallenge3': PYTHONPATH=/home/robertog/ros2_ws/build/minichallenge3/prefix_override:/home/robertog/ros2_ws/install/minichallenge3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/minichallenge3 build --build-base /home/robertog/ros2_ws/build/minichallenge3/build install --record /home/robertog/ros2_ws/build/minichallenge3/install.log --single-version-externally-managed install_data
+[2.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robertog/ros2_ws/src/mobile_robotics': PYTHONPATH=/home/robertog/ros2_ws/build/mobile_robotics/prefix_override:/home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mobile_robotics build --build-base /home/robertog/ros2_ws/build/mobile_robotics/build install --record /home/robertog/ros2_ws/build/mobile_robotics/install.log --single-version-externally-managed install_data
+[2.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robertog/ros2_ws/src/mini1_checo': PYTHONPATH=/home/robertog/ros2_ws/build/mini1_checo/prefix_override:/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini1_checo build --build-base /home/robertog/ros2_ws/build/mini1_checo/build install --record /home/robertog/ros2_ws/build/mini1_checo/install.log --single-version-externally-managed install_data
+[2.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robertog/ros2_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robertog/ros2_ws/build/two_wheeled_robot -- -j12 -l12
+[3.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robertog/ros2_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robertog/ros2_ws/build/two_wheeled_robot
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/open_cv_example' for CMake module files
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/open_cv_example' for CMake config files
+[3.196s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/open_cv_example/lib'
+[3.197s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/open_cv_example/bin'
+[3.197s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/open_cv_example/lib/pkgconfig/open_cv_example.pc'
+[3.197s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages'
+[3.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('open_cv_example', 'pythonpath')
+[3.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/open_cv_example/share/open_cv_example/hook/pythonpath.ps1'
+[3.199s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/open_cv_example/share/open_cv_example/hook/pythonpath.dsv'
+[3.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/open_cv_example/share/open_cv_example/hook/pythonpath.sh'
+[3.201s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/open_cv_example/bin'
+[3.201s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(open_cv_example)
+[3.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/open_cv_example/share/open_cv_example/package.ps1'
+[3.203s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robertog/ros2_ws/install/open_cv_example/share/open_cv_example/package.dsv'
+[3.204s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/open_cv_example/share/open_cv_example/package.sh'
+[3.206s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/open_cv_example/share/open_cv_example/package.bash'
+[3.207s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/open_cv_example/share/open_cv_example/package.zsh'
+[3.208s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robertog/ros2_ws/install/open_cv_example/share/colcon-core/packages/open_cv_example)
+[3.210s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge3' for CMake module files
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge3' for CMake config files
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge3/lib'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge3/bin'
+[3.216s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge3/lib/pkgconfig/minichallenge3.pc'
+[3.217s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge3/lib/python3.10/site-packages'
+[3.217s] Level 1:colcon.colcon_core.shell:create_environment_hook('minichallenge3', 'pythonpath')
+[3.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/minichallenge3/share/minichallenge3/hook/pythonpath.ps1'
+[3.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/minichallenge3/share/minichallenge3/hook/pythonpath.dsv'
+[3.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/minichallenge3/share/minichallenge3/hook/pythonpath.sh'
+[3.221s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge3/bin'
+[3.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minichallenge3)
+[3.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/minichallenge3/share/minichallenge3/package.ps1'
+[3.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robertog/ros2_ws/install/minichallenge3/share/minichallenge3/package.dsv'
+[3.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/minichallenge3/share/minichallenge3/package.sh'
+[3.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/minichallenge3/share/minichallenge3/package.bash'
+[3.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/minichallenge3/share/minichallenge3/package.zsh'
+[3.227s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robertog/ros2_ws/install/minichallenge3/share/colcon-core/packages/minichallenge3)
+[3.228s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4' for CMake module files
+[3.231s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4' for CMake config files
+[3.235s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4/lib'
+[3.235s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4/bin'
+[3.235s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4/lib/pkgconfig/minichallenge4.pc'
+[3.235s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages'
+[3.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('minichallenge4', 'pythonpath')
+[3.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/minichallenge4/share/minichallenge4/hook/pythonpath.ps1'
+[3.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/minichallenge4/share/minichallenge4/hook/pythonpath.dsv'
+[3.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/minichallenge4/share/minichallenge4/hook/pythonpath.sh'
+[3.239s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4/bin'
+[3.239s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minichallenge4)
+[3.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/minichallenge4/share/minichallenge4/package.ps1'
+[3.241s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robertog/ros2_ws/install/minichallenge4/share/minichallenge4/package.dsv'
+[3.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/minichallenge4/share/minichallenge4/package.sh'
+[3.243s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/minichallenge4/share/minichallenge4/package.bash'
+[3.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/minichallenge4/share/minichallenge4/package.zsh'
+[3.245s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robertog/ros2_ws/install/minichallenge4/share/colcon-core/packages/minichallenge4)
+[3.247s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mobile_robotics' for CMake module files
+[3.249s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mobile_robotics' for CMake config files
+[3.252s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mobile_robotics/lib'
+[3.252s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mobile_robotics/bin'
+[3.252s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mobile_robotics/lib/pkgconfig/mobile_robotics.pc'
+[3.253s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages'
+[3.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robotics', 'pythonpath')
+[3.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/mobile_robotics/share/mobile_robotics/hook/pythonpath.ps1'
+[3.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/mobile_robotics/share/mobile_robotics/hook/pythonpath.dsv'
+[3.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/mobile_robotics/share/mobile_robotics/hook/pythonpath.sh'
+[3.256s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mobile_robotics/bin'
+[3.256s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robotics)
+[3.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/mobile_robotics/share/mobile_robotics/package.ps1'
+[3.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robertog/ros2_ws/install/mobile_robotics/share/mobile_robotics/package.dsv'
+[3.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/mobile_robotics/share/mobile_robotics/package.sh'
+[3.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/mobile_robotics/share/mobile_robotics/package.bash'
+[3.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/mobile_robotics/share/mobile_robotics/package.zsh'
+[3.261s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robertog/ros2_ws/install/mobile_robotics/share/colcon-core/packages/mobile_robotics)
+[3.286s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4_bueno' for CMake module files
+[3.288s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4_bueno' for CMake config files
+[3.291s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4_bueno/lib'
+[3.293s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4_bueno/bin'
+[3.293s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4_bueno/lib/pkgconfig/minichallenge4_bueno.pc'
+[3.293s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4_bueno/lib/python3.10/site-packages'
+[3.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('minichallenge4_bueno', 'pythonpath')
+[3.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/minichallenge4_bueno/share/minichallenge4_bueno/hook/pythonpath.ps1'
+[3.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/minichallenge4_bueno/share/minichallenge4_bueno/hook/pythonpath.dsv'
+[3.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/minichallenge4_bueno/share/minichallenge4_bueno/hook/pythonpath.sh'
+[3.301s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/minichallenge4_bueno/bin'
+[3.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(minichallenge4_bueno)
+[3.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/minichallenge4_bueno/share/minichallenge4_bueno/package.ps1'
+[3.303s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robertog/ros2_ws/install/minichallenge4_bueno/share/minichallenge4_bueno/package.dsv'
+[3.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/minichallenge4_bueno/share/minichallenge4_bueno/package.sh'
+[3.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/minichallenge4_bueno/share/minichallenge4_bueno/package.bash'
+[3.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/minichallenge4_bueno/share/minichallenge4_bueno/package.zsh'
+[3.307s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robertog/ros2_ws/install/minichallenge4_bueno/share/colcon-core/packages/minichallenge4_bueno)
+[3.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robertog/ros2_ws/src/open_cv_example' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/open_cv_example/prefix_override:/home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/open_cv_example build --build-base /home/robertog/ros2_ws/build/open_cv_example/build install --record /home/robertog/ros2_ws/build/open_cv_example/install.log --single-version-externally-managed install_data
+[3.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robertog/ros2_ws/src/minichallenge3' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/minichallenge3/prefix_override:/home/robertog/ros2_ws/install/minichallenge3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/minichallenge3 build --build-base /home/robertog/ros2_ws/build/minichallenge3/build install --record /home/robertog/ros2_ws/build/minichallenge3/install.log --single-version-externally-managed install_data
+[3.348s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mini1_checo' for CMake module files
+[3.349s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mini1_checo' for CMake config files
+[3.351s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mini1_checo/lib'
+[3.351s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mini1_checo/bin'
+[3.351s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mini1_checo/lib/pkgconfig/mini1_checo.pc'
+[3.352s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages'
+[3.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('mini1_checo', 'pythonpath')
+[3.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/mini1_checo/share/mini1_checo/hook/pythonpath.ps1'
+[3.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/mini1_checo/share/mini1_checo/hook/pythonpath.dsv'
+[3.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/mini1_checo/share/mini1_checo/hook/pythonpath.sh'
+[3.355s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/mini1_checo/bin'
+[3.355s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mini1_checo)
+[3.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/mini1_checo/share/mini1_checo/package.ps1'
+[3.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robertog/ros2_ws/install/mini1_checo/share/mini1_checo/package.dsv'
+[3.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/mini1_checo/share/mini1_checo/package.sh'
+[3.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/mini1_checo/share/mini1_checo/package.bash'
+[3.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/mini1_checo/share/mini1_checo/package.zsh'
+[3.359s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robertog/ros2_ws/install/mini1_checo/share/colcon-core/packages/mini1_checo)
+[3.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robertog/ros2_ws/src/minichallenge4' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/minichallenge4/prefix_override:/home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/minichallenge4 build --build-base /home/robertog/ros2_ws/build/minichallenge4/build install --record /home/robertog/ros2_ws/build/minichallenge4/install.log --single-version-externally-managed install_data
+[3.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_wheeled_robot)
+[3.378s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot' for CMake module files
+[3.380s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot' for CMake config files
+[3.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robertog/ros2_ws/src/mobile_robotics' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/mobile_robotics/prefix_override:/home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mobile_robotics build --build-base /home/robertog/ros2_ws/build/mobile_robotics/build install --record /home/robertog/ros2_ws/build/mobile_robotics/install.log --single-version-externally-managed install_data
+[3.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robertog/ros2_ws/src/minichallenge4_bueno' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/minichallenge4_bueno/prefix_override:/home/robertog/ros2_ws/install/minichallenge4_bueno/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/minichallenge4_bueno build --build-base /home/robertog/ros2_ws/build/minichallenge4_bueno/build install --record /home/robertog/ros2_ws/build/minichallenge4_bueno/install.log --single-version-externally-managed install_data
+[3.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robertog/ros2_ws/src/mini1_checo' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/mini1_checo/prefix_override:/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini1_checo build --build-base /home/robertog/ros2_ws/build/mini1_checo/build install --record /home/robertog/ros2_ws/build/mini1_checo/install.log --single-version-externally-managed install_data
+[3.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robertog/ros2_ws/build/two_wheeled_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robertog/ros2_ws/build/two_wheeled_robot
+[3.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_wheeled_robot', 'cmake_prefix_path')
+[3.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/cmake_prefix_path.ps1'
+[3.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/cmake_prefix_path.dsv'
+[3.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/cmake_prefix_path.sh'
+[3.527s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot/lib'
+[3.527s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot/bin'
+[3.527s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot/lib/pkgconfig/two_wheeled_robot.pc'
+[3.527s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages'
+[3.528s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot/bin'
+[3.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.ps1'
+[3.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.dsv'
+[3.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.sh'
+[3.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.bash'
+[3.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.zsh'
+[3.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robertog/ros2_ws/install/two_wheeled_robot/share/colcon-core/packages/two_wheeled_robot)
+[3.564s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(two_wheeled_robot)
+[3.565s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot' for CMake module files
+[3.565s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot' for CMake config files
+[3.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('two_wheeled_robot', 'cmake_prefix_path')
+[3.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/cmake_prefix_path.ps1'
+[3.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/cmake_prefix_path.dsv'
+[3.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/hook/cmake_prefix_path.sh'
+[3.593s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot/lib'
+[3.593s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot/bin'
+[3.593s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot/lib/pkgconfig/two_wheeled_robot.pc'
+[3.593s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot/lib/python3.10/site-packages'
+[3.593s] Level 1:colcon.colcon_core.environment:checking '/home/robertog/ros2_ws/install/two_wheeled_robot/bin'
+[3.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.ps1'
+[3.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.dsv'
+[3.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.sh'
+[3.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.bash'
+[3.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/robertog/ros2_ws/install/two_wheeled_robot/share/two_wheeled_robot/package.zsh'
+[3.596s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robertog/ros2_ws/install/two_wheeled_robot/share/colcon-core/packages/two_wheeled_robot)
+[3.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.597s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.597s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.604s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.604s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.605s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.622s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.623s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robertog/ros2_ws/install/local_setup.ps1'
+[3.624s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robertog/ros2_ws/install/_local_setup_util_ps1.py'
+[3.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robertog/ros2_ws/install/setup.ps1'
+[3.627s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robertog/ros2_ws/install/local_setup.sh'
+[3.627s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robertog/ros2_ws/install/_local_setup_util_sh.py'
+[3.628s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robertog/ros2_ws/install/setup.sh'
+[3.629s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robertog/ros2_ws/install/local_setup.bash'
+[3.629s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robertog/ros2_ws/install/setup.bash'
+[3.630s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robertog/ros2_ws/install/local_setup.zsh'
+[3.631s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robertog/ros2_ws/install/setup.zsh'

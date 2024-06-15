@@ -1,0 +1,24 @@
+[3.170s] Invoking command in '/home/robertog/ros2_ws/src/final_challenge': PYTHONPATH=/home/robertog/ros2_ws/build/final_challenge/prefix_override:/home/robertog/ros2_ws/install/final_challenge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/final_challenge build --build-base /home/robertog/ros2_ws/build/final_challenge/build install --record /home/robertog/ros2_ws/build/final_challenge/install.log --single-version-externally-managed install_data
+[3.526s] running egg_info
+[3.527s] writing ../../build/final_challenge/final_challenge.egg-info/PKG-INFO
+[3.527s] writing dependency_links to ../../build/final_challenge/final_challenge.egg-info/dependency_links.txt
+[3.528s] writing entry points to ../../build/final_challenge/final_challenge.egg-info/entry_points.txt
+[3.528s] writing requirements to ../../build/final_challenge/final_challenge.egg-info/requires.txt
+[3.528s] writing top-level names to ../../build/final_challenge/final_challenge.egg-info/top_level.txt
+[3.532s] reading manifest file '../../build/final_challenge/final_challenge.egg-info/SOURCES.txt'
+[3.533s] writing manifest file '../../build/final_challenge/final_challenge.egg-info/SOURCES.txt'
+[3.533s] running build
+[3.533s] running build_py
+[3.534s] copying final_challenge/line_follower.py -> /home/robertog/ros2_ws/build/final_challenge/build/lib/final_challenge
+[3.534s] running install
+[3.536s] running install_lib
+[3.542s] copying /home/robertog/ros2_ws/build/final_challenge/build/lib/final_challenge/line_follower.py -> /home/robertog/ros2_ws/install/final_challenge/lib/python3.10/site-packages/final_challenge
+[3.543s] byte-compiling /home/robertog/ros2_ws/install/final_challenge/lib/python3.10/site-packages/final_challenge/line_follower.py to line_follower.cpython-310.pyc
+[3.545s] running install_data
+[3.546s] running install_egg_info
+[3.548s] removing '/home/robertog/ros2_ws/install/final_challenge/lib/python3.10/site-packages/final_challenge-0.0.0-py3.10.egg-info' (and everything under it)
+[3.549s] Copying ../../build/final_challenge/final_challenge.egg-info to /home/robertog/ros2_ws/install/final_challenge/lib/python3.10/site-packages/final_challenge-0.0.0-py3.10.egg-info
+[3.550s] running install_scripts
+[3.587s] Installing line_follower script to /home/robertog/ros2_ws/install/final_challenge/lib/final_challenge
+[3.588s] writing list of installed files to '/home/robertog/ros2_ws/build/final_challenge/install.log'
+[3.776s] Invoked command in '/home/robertog/ros2_ws/src/final_challenge' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/final_challenge/prefix_override:/home/robertog/ros2_ws/install/final_challenge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/final_challenge build --build-base /home/robertog/ros2_ws/build/final_challenge/build install --record /home/robertog/ros2_ws/build/final_challenge/install.log --single-version-externally-managed install_data

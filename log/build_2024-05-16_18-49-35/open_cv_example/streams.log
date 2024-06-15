@@ -1,0 +1,25 @@
+[2.664s] Invoking command in '/home/robertog/ros2_ws/src/open_cv_example': PYTHONPATH=/home/robertog/ros2_ws/build/open_cv_example/prefix_override:/home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/open_cv_example build --build-base /home/robertog/ros2_ws/build/open_cv_example/build install --record /home/robertog/ros2_ws/build/open_cv_example/install.log --single-version-externally-managed install_data
+[3.137s] running egg_info
+[3.138s] writing ../../build/open_cv_example/open_cv_example.egg-info/PKG-INFO
+[3.138s] writing dependency_links to ../../build/open_cv_example/open_cv_example.egg-info/dependency_links.txt
+[3.139s] writing entry points to ../../build/open_cv_example/open_cv_example.egg-info/entry_points.txt
+[3.139s] writing requirements to ../../build/open_cv_example/open_cv_example.egg-info/requires.txt
+[3.139s] writing top-level names to ../../build/open_cv_example/open_cv_example.egg-info/top_level.txt
+[3.141s] reading manifest file '../../build/open_cv_example/open_cv_example.egg-info/SOURCES.txt'
+[3.141s] adding license file 'LICENSE'
+[3.142s] writing manifest file '../../build/open_cv_example/open_cv_example.egg-info/SOURCES.txt'
+[3.142s] running build
+[3.142s] running build_py
+[3.143s] copying open_cv_example/circles.py -> /home/robertog/ros2_ws/build/open_cv_example/build/lib/open_cv_example
+[3.143s] running install
+[3.144s] running install_lib
+[3.144s] copying /home/robertog/ros2_ws/build/open_cv_example/build/lib/open_cv_example/circles.py -> /home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages/open_cv_example
+[3.145s] byte-compiling /home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages/open_cv_example/circles.py to circles.cpython-310.pyc
+[3.146s] running install_data
+[3.146s] running install_egg_info
+[3.147s] removing '/home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages/open_cv_example-0.0.0-py3.10.egg-info' (and everything under it)
+[3.148s] Copying ../../build/open_cv_example/open_cv_example.egg-info to /home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages/open_cv_example-0.0.0-py3.10.egg-info
+[3.148s] running install_scripts
+[3.173s] Installing circle_id script to /home/robertog/ros2_ws/install/open_cv_example/lib/open_cv_example
+[3.174s] writing list of installed files to '/home/robertog/ros2_ws/build/open_cv_example/install.log'
+[3.211s] Invoked command in '/home/robertog/ros2_ws/src/open_cv_example' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/open_cv_example/prefix_override:/home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/open_cv_example build --build-base /home/robertog/ros2_ws/build/open_cv_example/build install --record /home/robertog/ros2_ws/build/open_cv_example/install.log --single-version-externally-managed install_data

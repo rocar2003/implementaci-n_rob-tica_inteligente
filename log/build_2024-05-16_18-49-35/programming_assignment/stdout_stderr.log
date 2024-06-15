@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/programming_assignment/programming_assignment.egg-info
+writing ../../build/programming_assignment/programming_assignment.egg-info/PKG-INFO
+writing dependency_links to ../../build/programming_assignment/programming_assignment.egg-info/dependency_links.txt
+writing entry points to ../../build/programming_assignment/programming_assignment.egg-info/entry_points.txt
+writing requirements to ../../build/programming_assignment/programming_assignment.egg-info/requires.txt
+writing top-level names to ../../build/programming_assignment/programming_assignment.egg-info/top_level.txt
+writing manifest file '../../build/programming_assignment/programming_assignment.egg-info/SOURCES.txt'
+reading manifest file '../../build/programming_assignment/programming_assignment.egg-info/SOURCES.txt'
+writing manifest file '../../build/programming_assignment/programming_assignment.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robertog/ros2_ws/build/programming_assignment/build
+creating /home/robertog/ros2_ws/build/programming_assignment/build/lib
+creating /home/robertog/ros2_ws/build/programming_assignment/build/lib/programming_assignment
+copying programming_assignment/__init__.py -> /home/robertog/ros2_ws/build/programming_assignment/build/lib/programming_assignment
+copying programming_assignment/forward_kinematics.py -> /home/robertog/ros2_ws/build/programming_assignment/build/lib/programming_assignment
+running install
+running install_lib
+creating /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment
+copying /home/robertog/ros2_ws/build/programming_assignment/build/lib/programming_assignment/__init__.py -> /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment
+copying /home/robertog/ros2_ws/build/programming_assignment/build/lib/programming_assignment/forward_kinematics.py -> /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment
+byte-compiling /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment/forward_kinematics.py to forward_kinematics.cpython-310.pyc
+running install_data
+creating /home/robertog/ros2_ws/install/programming_assignment/share/ament_index
+creating /home/robertog/ros2_ws/install/programming_assignment/share/ament_index/resource_index
+creating /home/robertog/ros2_ws/install/programming_assignment/share/ament_index/resource_index/packages
+copying resource/programming_assignment -> /home/robertog/ros2_ws/install/programming_assignment/share/ament_index/resource_index/packages
+copying package.xml -> /home/robertog/ros2_ws/install/programming_assignment/share/programming_assignment
+running install_egg_info
+Copying ../../build/programming_assignment/programming_assignment.egg-info to /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment-0.0.0-py3.10.egg-info
+running install_scripts
+Installing forward_kinematics script to /home/robertog/ros2_ws/install/programming_assignment/lib/programming_assignment
+writing list of installed files to '/home/robertog/ros2_ws/build/programming_assignment/install.log'

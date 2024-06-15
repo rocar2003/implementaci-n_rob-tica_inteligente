@@ -1,0 +1,4 @@
+[console_scripts]
+controller = minichallenge4_bueno.controller:main
+traffic_lights = minichallenge4_bueno.traffic_lights:main
+

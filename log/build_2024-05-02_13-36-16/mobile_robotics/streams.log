@@ -1,0 +1,22 @@
+[2.693s] Invoking command in '/home/robertog/ros2_ws/src/mobile_robotics': PYTHONPATH=/home/robertog/ros2_ws/build/mobile_robotics/prefix_override:/home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mobile_robotics build --build-base /home/robertog/ros2_ws/build/mobile_robotics/build install --record /home/robertog/ros2_ws/build/mobile_robotics/install.log --single-version-externally-managed install_data
+[3.338s] running egg_info
+[3.338s] writing ../../build/mobile_robotics/mobile_robotics.egg-info/PKG-INFO
+[3.338s] writing dependency_links to ../../build/mobile_robotics/mobile_robotics.egg-info/dependency_links.txt
+[3.338s] writing entry points to ../../build/mobile_robotics/mobile_robotics.egg-info/entry_points.txt
+[3.338s] writing requirements to ../../build/mobile_robotics/mobile_robotics.egg-info/requires.txt
+[3.339s] writing top-level names to ../../build/mobile_robotics/mobile_robotics.egg-info/top_level.txt
+[3.340s] reading manifest file '../../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'
+[3.341s] writing manifest file '../../build/mobile_robotics/mobile_robotics.egg-info/SOURCES.txt'
+[3.341s] running build
+[3.341s] running build_py
+[3.341s] running install
+[3.341s] running install_lib
+[3.342s] running install_data
+[3.342s] running install_egg_info
+[3.343s] removing '/home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics-0.0.0-py3.10.egg-info' (and everything under it)
+[3.343s] Copying ../../build/mobile_robotics/mobile_robotics.egg-info to /home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages/mobile_robotics-0.0.0-py3.10.egg-info
+[3.343s] running install_scripts
+[3.346s] Installing ros_color_tracker script to /home/robertog/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[3.346s] Installing test_node script to /home/robertog/ros2_ws/install/mobile_robotics/lib/mobile_robotics
+[3.346s] writing list of installed files to '/home/robertog/ros2_ws/build/mobile_robotics/install.log'
+[3.386s] Invoked command in '/home/robertog/ros2_ws/src/mobile_robotics' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/mobile_robotics/prefix_override:/home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mobile_robotics build --build-base /home/robertog/ros2_ws/build/mobile_robotics/build install --record /home/robertog/ros2_ws/build/mobile_robotics/install.log --single-version-externally-managed install_data

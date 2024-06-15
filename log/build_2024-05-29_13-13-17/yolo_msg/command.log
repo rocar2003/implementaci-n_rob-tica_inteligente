@@ -1,0 +1,4 @@
+Invoking command in '/home/robertog/ros2_ws/build/yolo_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robertog/ros2_ws/build/yolo_msg -- -j12 -l12
+Invoked command in '/home/robertog/ros2_ws/build/yolo_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robertog/ros2_ws/build/yolo_msg -- -j12 -l12
+Invoking command in '/home/robertog/ros2_ws/build/yolo_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robertog/ros2_ws/build/yolo_msg
+Invoked command in '/home/robertog/ros2_ws/build/yolo_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robertog/ros2_ws/build/yolo_msg

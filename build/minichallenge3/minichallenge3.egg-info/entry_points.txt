@@ -1,0 +1,3 @@
+[console_scripts]
+controller = minichallenge3.controller:main
+

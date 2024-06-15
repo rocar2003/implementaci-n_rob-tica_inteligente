@@ -1,0 +1,6 @@
+source;share/mini1_checo/hook/pythonpath.ps1
+source;share/mini1_checo/hook/pythonpath.dsv
+source;share/mini1_checo/hook/pythonpath.sh
+source;share/mini1_checo/hook/ament_prefix_path.ps1
+source;share/mini1_checo/hook/ament_prefix_path.dsv
+source;share/mini1_checo/hook/ament_prefix_path.sh

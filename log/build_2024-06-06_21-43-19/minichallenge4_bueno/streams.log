@@ -1,0 +1,22 @@
+[4.470s] Invoking command in '/home/robertog/ros2_ws/src/minichallenge4_bueno': PYTHONPATH=/home/robertog/ros2_ws/build/minichallenge4_bueno/prefix_override:/home/robertog/ros2_ws/install/minichallenge4_bueno/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/minichallenge4_bueno build --build-base /home/robertog/ros2_ws/build/minichallenge4_bueno/build install --record /home/robertog/ros2_ws/build/minichallenge4_bueno/install.log --single-version-externally-managed install_data
+[5.082s] running egg_info
+[5.082s] writing ../../build/minichallenge4_bueno/minichallenge4_bueno.egg-info/PKG-INFO
+[5.082s] writing dependency_links to ../../build/minichallenge4_bueno/minichallenge4_bueno.egg-info/dependency_links.txt
+[5.083s] writing entry points to ../../build/minichallenge4_bueno/minichallenge4_bueno.egg-info/entry_points.txt
+[5.083s] writing requirements to ../../build/minichallenge4_bueno/minichallenge4_bueno.egg-info/requires.txt
+[5.083s] writing top-level names to ../../build/minichallenge4_bueno/minichallenge4_bueno.egg-info/top_level.txt
+[5.083s] reading manifest file '../../build/minichallenge4_bueno/minichallenge4_bueno.egg-info/SOURCES.txt'
+[5.083s] writing manifest file '../../build/minichallenge4_bueno/minichallenge4_bueno.egg-info/SOURCES.txt'
+[5.083s] running build
+[5.083s] running build_py
+[5.083s] running install
+[5.083s] running install_lib
+[5.084s] running install_data
+[5.084s] running install_egg_info
+[5.084s] removing '/home/robertog/ros2_ws/install/minichallenge4_bueno/lib/python3.10/site-packages/minichallenge4_bueno-0.0.0-py3.10.egg-info' (and everything under it)
+[5.084s] Copying ../../build/minichallenge4_bueno/minichallenge4_bueno.egg-info to /home/robertog/ros2_ws/install/minichallenge4_bueno/lib/python3.10/site-packages/minichallenge4_bueno-0.0.0-py3.10.egg-info
+[5.084s] running install_scripts
+[5.084s] Installing controller script to /home/robertog/ros2_ws/install/minichallenge4_bueno/lib/minichallenge4_bueno
+[5.084s] Installing traffic_lights script to /home/robertog/ros2_ws/install/minichallenge4_bueno/lib/minichallenge4_bueno
+[5.084s] writing list of installed files to '/home/robertog/ros2_ws/build/minichallenge4_bueno/install.log'
+[5.370s] Invoked command in '/home/robertog/ros2_ws/src/minichallenge4_bueno' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/minichallenge4_bueno/prefix_override:/home/robertog/ros2_ws/install/minichallenge4_bueno/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/minichallenge4_bueno build --build-base /home/robertog/ros2_ws/build/minichallenge4_bueno/build install --record /home/robertog/ros2_ws/build/minichallenge4_bueno/install.log --single-version-externally-managed install_data

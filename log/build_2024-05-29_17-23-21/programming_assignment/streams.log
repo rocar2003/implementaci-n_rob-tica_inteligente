@@ -1,0 +1,21 @@
+[2.922s] Invoking command in '/home/robertog/ros2_ws/src/programming_assignment': PYTHONPATH=/home/robertog/ros2_ws/build/programming_assignment/prefix_override:/home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/programming_assignment build --build-base /home/robertog/ros2_ws/build/programming_assignment/build install --record /home/robertog/ros2_ws/build/programming_assignment/install.log --single-version-externally-managed install_data
+[3.314s] running egg_info
+[3.316s] writing ../../build/programming_assignment/programming_assignment.egg-info/PKG-INFO
+[3.321s] writing dependency_links to ../../build/programming_assignment/programming_assignment.egg-info/dependency_links.txt
+[3.321s] writing entry points to ../../build/programming_assignment/programming_assignment.egg-info/entry_points.txt
+[3.322s] writing requirements to ../../build/programming_assignment/programming_assignment.egg-info/requires.txt
+[3.322s] writing top-level names to ../../build/programming_assignment/programming_assignment.egg-info/top_level.txt
+[3.326s] reading manifest file '../../build/programming_assignment/programming_assignment.egg-info/SOURCES.txt'
+[3.329s] writing manifest file '../../build/programming_assignment/programming_assignment.egg-info/SOURCES.txt'
+[3.330s] running build
+[3.330s] running build_py
+[3.339s] running install
+[3.340s] running install_lib
+[3.343s] running install_data
+[3.343s] running install_egg_info
+[3.347s] removing '/home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment-0.0.0-py3.10.egg-info' (and everything under it)
+[3.348s] Copying ../../build/programming_assignment/programming_assignment.egg-info to /home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages/programming_assignment-0.0.0-py3.10.egg-info
+[3.350s] running install_scripts
+[3.394s] Installing forward_kinematics script to /home/robertog/ros2_ws/install/programming_assignment/lib/programming_assignment
+[3.394s] writing list of installed files to '/home/robertog/ros2_ws/build/programming_assignment/install.log'
+[3.858s] Invoked command in '/home/robertog/ros2_ws/src/programming_assignment' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/programming_assignment/prefix_override:/home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/programming_assignment build --build-base /home/robertog/ros2_ws/build/programming_assignment/build install --record /home/robertog/ros2_ws/build/programming_assignment/install.log --single-version-externally-managed install_data

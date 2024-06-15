@@ -1,0 +1,196 @@
+[0.179s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/robertog/ros2_ws']
+[0.179s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/robertog/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x729e99f65b10>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x729e9a075810>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x729e9a075810>>, mixin_verb=('list',))
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.468s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robertog/ros2_ws'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extensions ['cmake', 'python']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws) by extension 'python_setup_py'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/build) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/build) ignored
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/install) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/install) ignored
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/log) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/log) ignored
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extension 'python'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extensions ['python_setup_py']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src) by extension 'python_setup_py'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/final_challenge) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/final_challenge) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/final_challenge) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/final_challenge) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/final_challenge) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/final_challenge) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/final_challenge) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/final_challenge) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/final_challenge) by extension 'ros'
+[0.491s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/final_challenge' with type 'ros.ament_python' and name 'final_challenge'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_ao) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_ao) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_ao) by extension 'ignore_ament_install'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_ao) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_ao) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_ao) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_ao) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_ao) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_ao) by extension 'ros'
+[0.493s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/gtg_ao' with type 'ros.ament_python' and name 'gtg_ao'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_behavior) by extensions ['ignore', 'ignore_ament_install']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_behavior) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_behavior) by extension 'ignore_ament_install'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_behavior) by extensions ['colcon_pkg']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_behavior) by extension 'colcon_pkg'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_behavior) by extensions ['colcon_meta']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_behavior) by extension 'colcon_meta'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_behavior) by extensions ['ros']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/gtg_behavior) by extension 'ros'
+[0.495s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/gtg_behavior' with type 'ros.ament_python' and name 'gtg_behavior'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/learning_tf2) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/learning_tf2) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/learning_tf2) by extension 'ignore_ament_install'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/learning_tf2) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/learning_tf2) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/learning_tf2) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/learning_tf2) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/learning_tf2) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/learning_tf2) by extension 'ros'
+[0.498s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/learning_tf2' with type 'ros.ament_python' and name 'learning_tf2'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mini1_checo) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mini1_checo) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mini1_checo) by extension 'ignore_ament_install'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mini1_checo) by extensions ['colcon_pkg']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mini1_checo) by extension 'colcon_pkg'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mini1_checo) by extensions ['colcon_meta']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mini1_checo) by extension 'colcon_meta'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mini1_checo) by extensions ['ros']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mini1_checo) by extension 'ros'
+[0.500s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/mini1_checo' with type 'ros.ament_python' and name 'mini1_checo'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge3) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge3) by extension 'ignore'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge3) by extension 'ignore_ament_install'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge3) by extensions ['colcon_pkg']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge3) by extension 'colcon_pkg'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge3) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge3) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge3) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge3) by extension 'ros'
+[0.502s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/minichallenge3' with type 'ros.ament_python' and name 'minichallenge3'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4) by extensions ['ignore', 'ignore_ament_install']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4) by extension 'ignore'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4) by extension 'ignore_ament_install'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4) by extensions ['colcon_pkg']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4) by extension 'colcon_pkg'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4) by extensions ['colcon_meta']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4) by extension 'colcon_meta'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4) by extensions ['ros']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4) by extension 'ros'
+[0.503s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/minichallenge4' with type 'ros.ament_python' and name 'minichallenge4'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4_bueno) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4_bueno) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4_bueno) by extension 'ignore_ament_install'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4_bueno) by extensions ['colcon_pkg']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4_bueno) by extension 'colcon_pkg'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4_bueno) by extensions ['colcon_meta']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4_bueno) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4_bueno) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge4_bueno) by extension 'ros'
+[0.504s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/minichallenge4_bueno' with type 'ros.ament_python' and name 'minichallenge4_bueno'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge5) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge5) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge5) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge5) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge5) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge5) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge5) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge5) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/minichallenge5) by extension 'ros'
+[0.506s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/minichallenge5' with type 'ros.ament_python' and name 'minichallenge5'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mobile_robotics) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mobile_robotics) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mobile_robotics) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mobile_robotics) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mobile_robotics) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mobile_robotics) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mobile_robotics) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mobile_robotics) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/mobile_robotics) by extension 'ros'
+[0.507s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/mobile_robotics' with type 'ros.ament_python' and name 'mobile_robotics'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/open_cv_example) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/open_cv_example) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/open_cv_example) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/open_cv_example) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/open_cv_example) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/open_cv_example) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/open_cv_example) by extension 'colcon_meta'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/open_cv_example) by extensions ['ros']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/open_cv_example) by extension 'ros'
+[0.508s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/open_cv_example' with type 'ros.ament_python' and name 'open_cv_example'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/programming_assignment) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/programming_assignment) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/programming_assignment) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/programming_assignment) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/programming_assignment) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/programming_assignment) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/programming_assignment) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/programming_assignment) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/programming_assignment) by extension 'ros'
+[0.509s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/programming_assignment' with type 'ros.ament_python' and name 'programming_assignment'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/two_wheeled_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/two_wheeled_robot) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/two_wheeled_robot) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/two_wheeled_robot) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/two_wheeled_robot) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/two_wheeled_robot) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/two_wheeled_robot) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/two_wheeled_robot) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/two_wheeled_robot) by extension 'ros'
+[0.511s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/two_wheeled_robot' with type 'ros.ament_cmake' and name 'two_wheeled_robot'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolo_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolo_msg) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolo_msg) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolo_msg) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolo_msg) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolo_msg) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolo_msg) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolo_msg) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolo_msg) by extension 'ros'
+[0.512s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/yolo_msg' with type 'ros.ament_cmake' and name 'yolo_msg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolov8_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolov8_ros2) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolov8_ros2) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolov8_ros2) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolov8_ros2) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolov8_ros2) by extensions ['colcon_meta']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolov8_ros2) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolov8_ros2) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(/home/robertog/ros2_ws/src/yolov8_ros2) by extension 'ros'
+[0.513s] DEBUG:colcon.colcon_core.package_identification:Package '/home/robertog/ros2_ws/src/yolov8_ros2' with type 'ros.ament_python' and name 'yolov8_ros2'
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

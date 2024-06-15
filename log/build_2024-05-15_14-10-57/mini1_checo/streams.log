@@ -1,0 +1,37 @@
+[2.420s] Invoking command in '/home/robertog/ros2_ws/src/mini1_checo': PYTHONPATH=/home/robertog/ros2_ws/build/mini1_checo/prefix_override:/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini1_checo build --build-base /home/robertog/ros2_ws/build/mini1_checo/build install --record /home/robertog/ros2_ws/build/mini1_checo/install.log --single-version-externally-managed install_data
+[3.001s] running egg_info
+[3.002s] creating ../../build/mini1_checo/mini1_checo.egg-info
+[3.002s] writing ../../build/mini1_checo/mini1_checo.egg-info/PKG-INFO
+[3.002s] writing dependency_links to ../../build/mini1_checo/mini1_checo.egg-info/dependency_links.txt
+[3.002s] writing entry points to ../../build/mini1_checo/mini1_checo.egg-info/entry_points.txt
+[3.003s] writing requirements to ../../build/mini1_checo/mini1_checo.egg-info/requires.txt
+[3.003s] writing top-level names to ../../build/mini1_checo/mini1_checo.egg-info/top_level.txt
+[3.005s] writing manifest file '../../build/mini1_checo/mini1_checo.egg-info/SOURCES.txt'
+[3.008s] reading manifest file '../../build/mini1_checo/mini1_checo.egg-info/SOURCES.txt'
+[3.010s] writing manifest file '../../build/mini1_checo/mini1_checo.egg-info/SOURCES.txt'
+[3.010s] running build
+[3.010s] running build_py
+[3.011s] creating /home/robertog/ros2_ws/build/mini1_checo/build
+[3.011s] creating /home/robertog/ros2_ws/build/mini1_checo/build/lib
+[3.011s] creating /home/robertog/ros2_ws/build/mini1_checo/build/lib/mini1_checo
+[3.011s] copying mini1_checo/__init__.py -> /home/robertog/ros2_ws/build/mini1_checo/build/lib/mini1_checo
+[3.012s] copying mini1_checo/signal_generator.py -> /home/robertog/ros2_ws/build/mini1_checo/build/lib/mini1_checo
+[3.013s] running install
+[3.013s] running install_lib
+[3.015s] creating /home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo
+[3.015s] copying /home/robertog/ros2_ws/build/mini1_checo/build/lib/mini1_checo/__init__.py -> /home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo
+[3.016s] copying /home/robertog/ros2_ws/build/mini1_checo/build/lib/mini1_checo/signal_generator.py -> /home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo
+[3.017s] byte-compiling /home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo/__init__.py to __init__.cpython-310.pyc
+[3.017s] byte-compiling /home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo/signal_generator.py to signal_generator.cpython-310.pyc
+[3.018s] running install_data
+[3.018s] creating /home/robertog/ros2_ws/install/mini1_checo/share/ament_index
+[3.018s] creating /home/robertog/ros2_ws/install/mini1_checo/share/ament_index/resource_index
+[3.018s] creating /home/robertog/ros2_ws/install/mini1_checo/share/ament_index/resource_index/packages
+[3.019s] copying resource/mini1_checo -> /home/robertog/ros2_ws/install/mini1_checo/share/ament_index/resource_index/packages
+[3.019s] copying package.xml -> /home/robertog/ros2_ws/install/mini1_checo/share/mini1_checo
+[3.019s] running install_egg_info
+[3.022s] Copying ../../build/mini1_checo/mini1_checo.egg-info to /home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo-0.0.0-py3.10.egg-info
+[3.024s] running install_scripts
+[3.059s] Installing signal_generator script to /home/robertog/ros2_ws/install/mini1_checo/lib/mini1_checo
+[3.061s] writing list of installed files to '/home/robertog/ros2_ws/build/mini1_checo/install.log'
+[3.063s] Invoked command in '/home/robertog/ros2_ws/src/mini1_checo' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/mini1_checo/prefix_override:/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini1_checo build --build-base /home/robertog/ros2_ws/build/mini1_checo/build install --record /home/robertog/ros2_ws/build/mini1_checo/install.log --single-version-externally-managed install_data

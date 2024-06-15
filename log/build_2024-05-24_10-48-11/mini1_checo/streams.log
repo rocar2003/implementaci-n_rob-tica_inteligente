@@ -1,0 +1,21 @@
+[3.362s] Invoking command in '/home/robertog/ros2_ws/src/mini1_checo': PYTHONPATH=/home/robertog/ros2_ws/build/mini1_checo/prefix_override:/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini1_checo build --build-base /home/robertog/ros2_ws/build/mini1_checo/build install --record /home/robertog/ros2_ws/build/mini1_checo/install.log --single-version-externally-managed install_data
+[3.873s] running egg_info
+[3.874s] writing ../../build/mini1_checo/mini1_checo.egg-info/PKG-INFO
+[3.874s] writing dependency_links to ../../build/mini1_checo/mini1_checo.egg-info/dependency_links.txt
+[3.874s] writing entry points to ../../build/mini1_checo/mini1_checo.egg-info/entry_points.txt
+[3.875s] writing requirements to ../../build/mini1_checo/mini1_checo.egg-info/requires.txt
+[3.875s] writing top-level names to ../../build/mini1_checo/mini1_checo.egg-info/top_level.txt
+[3.878s] reading manifest file '../../build/mini1_checo/mini1_checo.egg-info/SOURCES.txt'
+[3.879s] writing manifest file '../../build/mini1_checo/mini1_checo.egg-info/SOURCES.txt'
+[3.880s] running build
+[3.880s] running build_py
+[3.880s] running install
+[3.881s] running install_lib
+[3.884s] running install_data
+[3.884s] running install_egg_info
+[3.888s] removing '/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo-0.0.0-py3.10.egg-info' (and everything under it)
+[3.895s] Copying ../../build/mini1_checo/mini1_checo.egg-info to /home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo-0.0.0-py3.10.egg-info
+[3.895s] running install_scripts
+[3.949s] Installing signal_generator script to /home/robertog/ros2_ws/install/mini1_checo/lib/mini1_checo
+[3.951s] writing list of installed files to '/home/robertog/ros2_ws/build/mini1_checo/install.log'
+[4.029s] Invoked command in '/home/robertog/ros2_ws/src/mini1_checo' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/mini1_checo/prefix_override:/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini1_checo build --build-base /home/robertog/ros2_ws/build/mini1_checo/build install --record /home/robertog/ros2_ws/build/mini1_checo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,25 @@
+[4.638s] Invoking command in '/home/robertog/ros2_ws/src/minichallenge5': PYTHONPATH=/home/robertog/ros2_ws/build/minichallenge5/prefix_override:/home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/minichallenge5 build --build-base /home/robertog/ros2_ws/build/minichallenge5/build install --record /home/robertog/ros2_ws/build/minichallenge5/install.log --single-version-externally-managed install_data
+[5.164s] running egg_info
+[5.165s] writing ../../build/minichallenge5/minichallenge5.egg-info/PKG-INFO
+[5.167s] writing dependency_links to ../../build/minichallenge5/minichallenge5.egg-info/dependency_links.txt
+[5.168s] writing entry points to ../../build/minichallenge5/minichallenge5.egg-info/entry_points.txt
+[5.168s] writing requirements to ../../build/minichallenge5/minichallenge5.egg-info/requires.txt
+[5.168s] writing top-level names to ../../build/minichallenge5/minichallenge5.egg-info/top_level.txt
+[5.172s] reading manifest file '../../build/minichallenge5/minichallenge5.egg-info/SOURCES.txt'
+[5.177s] writing manifest file '../../build/minichallenge5/minichallenge5.egg-info/SOURCES.txt'
+[5.178s] running build
+[5.178s] running build_py
+[5.180s] copying minichallenge5/line_follower.py -> /home/robertog/ros2_ws/build/minichallenge5/build/lib/minichallenge5
+[5.180s] running install
+[5.180s] running install_lib
+[5.186s] copying /home/robertog/ros2_ws/build/minichallenge5/build/lib/minichallenge5/line_follower.py -> /home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages/minichallenge5
+[5.190s] byte-compiling /home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages/minichallenge5/line_follower.py to line_follower.cpython-310.pyc
+[5.196s] running install_data
+[5.212s] running install_egg_info
+[5.220s] removing '/home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages/minichallenge5-0.0.0-py3.10.egg-info' (and everything under it)
+[5.220s] Copying ../../build/minichallenge5/minichallenge5.egg-info to /home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages/minichallenge5-0.0.0-py3.10.egg-info
+[5.223s] running install_scripts
+[5.267s] Installing line_follower script to /home/robertog/ros2_ws/install/minichallenge5/lib/minichallenge5
+[5.268s] Installing traffic_lights script to /home/robertog/ros2_ws/install/minichallenge5/lib/minichallenge5
+[5.268s] writing list of installed files to '/home/robertog/ros2_ws/build/minichallenge5/install.log'
+[5.795s] Invoked command in '/home/robertog/ros2_ws/src/minichallenge5' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/minichallenge5/prefix_override:/home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/minichallenge5 build --build-base /home/robertog/ros2_ws/build/minichallenge5/build install --record /home/robertog/ros2_ws/build/minichallenge5/install.log --single-version-externally-managed install_data

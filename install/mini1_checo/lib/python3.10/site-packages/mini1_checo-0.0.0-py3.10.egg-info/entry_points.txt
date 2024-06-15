@@ -1,0 +1,3 @@
+[console_scripts]
+signal_generator = mini1_checo.signal_generator:main
+

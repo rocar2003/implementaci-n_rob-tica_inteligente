@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/GTG_AO/GTG_AO.egg-info/PKG-INFO
+writing dependency_links to ../../build/GTG_AO/GTG_AO.egg-info/dependency_links.txt
+writing entry points to ../../build/GTG_AO/GTG_AO.egg-info/entry_points.txt
+writing requirements to ../../build/GTG_AO/GTG_AO.egg-info/requires.txt
+writing top-level names to ../../build/GTG_AO/GTG_AO.egg-info/top_level.txt
+reading manifest file '../../build/GTG_AO/GTG_AO.egg-info/SOURCES.txt'
+writing manifest file '../../build/GTG_AO/GTG_AO.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/robertog/ros2_ws/install/GTG_AO/lib/python3.10/site-packages/GTG_AO-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/GTG_AO/GTG_AO.egg-info to /home/robertog/ros2_ws/install/GTG_AO/lib/python3.10/site-packages/GTG_AO-0.0.0-py3.10.egg-info
+running install_scripts
+Installing avoid_obstacles script to /home/robertog/ros2_ws/install/GTG_AO/lib/GTG_AO
+writing list of installed files to '/home/robertog/ros2_ws/build/GTG_AO/install.log'

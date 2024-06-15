@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/minichallenge3/minichallenge3.egg-info/PKG-INFO
+writing dependency_links to ../../build/minichallenge3/minichallenge3.egg-info/dependency_links.txt
+writing entry points to ../../build/minichallenge3/minichallenge3.egg-info/entry_points.txt
+writing requirements to ../../build/minichallenge3/minichallenge3.egg-info/requires.txt
+writing top-level names to ../../build/minichallenge3/minichallenge3.egg-info/top_level.txt
+reading manifest file '../../build/minichallenge3/minichallenge3.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/minichallenge3/minichallenge3.egg-info/SOURCES.txt'
+running build
+running build_py
+copying minichallenge3/controller.py -> /home/robertog/ros2_ws/build/minichallenge3/build/lib/minichallenge3
+running install
+running install_lib
+copying /home/robertog/ros2_ws/build/minichallenge3/build/lib/minichallenge3/controller.py -> /home/robertog/ros2_ws/install/minichallenge3/lib/python3.10/site-packages/minichallenge3
+byte-compiling /home/robertog/ros2_ws/install/minichallenge3/lib/python3.10/site-packages/minichallenge3/controller.py to controller.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/robertog/ros2_ws/install/minichallenge3/lib/python3.10/site-packages/minichallenge3-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/minichallenge3/minichallenge3.egg-info to /home/robertog/ros2_ws/install/minichallenge3/lib/python3.10/site-packages/minichallenge3-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/robertog/ros2_ws/install/minichallenge3/lib/minichallenge3
+writing list of installed files to '/home/robertog/ros2_ws/build/minichallenge3/install.log'

@@ -1,0 +1,8 @@
+odometry_node:
+  ros__parameters:
+    p0:
+      x: 0.0
+      y: 0.0
+    p1:
+      x: -0.8
+      y: -0.8

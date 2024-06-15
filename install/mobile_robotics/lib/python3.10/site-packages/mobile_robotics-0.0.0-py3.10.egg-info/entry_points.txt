@@ -1,0 +1,5 @@
+[console_scripts]
+follower = mobile_robotics.follower:main
+ros_color_tracker = mobile_robotics.ros_color_tracker:main
+test_node = mobile_robotics.test_node:main
+

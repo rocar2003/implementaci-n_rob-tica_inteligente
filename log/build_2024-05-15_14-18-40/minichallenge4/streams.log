@@ -1,0 +1,23 @@
+[2.435s] Invoking command in '/home/robertog/ros2_ws/src/minichallenge4': PYTHONPATH=/home/robertog/ros2_ws/build/minichallenge4/prefix_override:/home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/minichallenge4 build --build-base /home/robertog/ros2_ws/build/minichallenge4/build install --record /home/robertog/ros2_ws/build/minichallenge4/install.log --single-version-externally-managed install_data
+[2.964s] running egg_info
+[2.964s] writing ../../build/minichallenge4/minichallenge4.egg-info/PKG-INFO
+[2.965s] writing dependency_links to ../../build/minichallenge4/minichallenge4.egg-info/dependency_links.txt
+[2.965s] writing entry points to ../../build/minichallenge4/minichallenge4.egg-info/entry_points.txt
+[2.965s] writing requirements to ../../build/minichallenge4/minichallenge4.egg-info/requires.txt
+[2.965s] writing top-level names to ../../build/minichallenge4/minichallenge4.egg-info/top_level.txt
+[2.965s] reading manifest file '../../build/minichallenge4/minichallenge4.egg-info/SOURCES.txt'
+[2.965s] adding license file 'LICENSE'
+[2.965s] writing manifest file '../../build/minichallenge4/minichallenge4.egg-info/SOURCES.txt'
+[2.965s] running build
+[2.966s] running build_py
+[2.966s] running install
+[2.966s] running install_lib
+[2.966s] running install_data
+[2.966s] running install_egg_info
+[2.966s] removing '/home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages/minichallenge4-0.0.0-py3.10.egg-info' (and everything under it)
+[2.966s] Copying ../../build/minichallenge4/minichallenge4.egg-info to /home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages/minichallenge4-0.0.0-py3.10.egg-info
+[2.966s] running install_scripts
+[2.974s] Installing controller script to /home/robertog/ros2_ws/install/minichallenge4/lib/minichallenge4
+[2.974s] Installing traffic_lights script to /home/robertog/ros2_ws/install/minichallenge4/lib/minichallenge4
+[2.975s] writing list of installed files to '/home/robertog/ros2_ws/build/minichallenge4/install.log'
+[3.001s] Invoked command in '/home/robertog/ros2_ws/src/minichallenge4' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/minichallenge4/prefix_override:/home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/minichallenge4 build --build-base /home/robertog/ros2_ws/build/minichallenge4/build install --record /home/robertog/ros2_ws/build/minichallenge4/install.log --single-version-externally-managed install_data

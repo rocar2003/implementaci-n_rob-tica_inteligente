@@ -1,0 +1,4 @@
+[console_scripts]
+line_follower = minichallenge5.line_follower:main
+traffic_lights = minichallenge5.traffic_lights:main
+

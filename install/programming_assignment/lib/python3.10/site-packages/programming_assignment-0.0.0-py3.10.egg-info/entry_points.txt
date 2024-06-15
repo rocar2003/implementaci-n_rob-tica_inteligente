@@ -1,0 +1,3 @@
+[console_scripts]
+forward_kinematics = programming_assignment.forward_kinematics:main
+

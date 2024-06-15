@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.001509] (-) JobUnselected: {'identifier': 'gtg_ao'}
+[0.001689] (-) JobUnselected: {'identifier': 'learning_tf2'}
+[0.001738] (-) JobUnselected: {'identifier': 'mini1_checo'}
+[0.001767] (-) JobUnselected: {'identifier': 'minichallenge3'}
+[0.002242] (-) JobUnselected: {'identifier': 'minichallenge4'}
+[0.003596] (-) JobUnselected: {'identifier': 'minichallenge4_bueno'}
+[0.004474] (-) JobUnselected: {'identifier': 'minichallenge5'}
+[0.004925] (-) JobUnselected: {'identifier': 'mobile_robotics'}
+[0.004991] (-) JobUnselected: {'identifier': 'open_cv_example'}
+[0.005020] (-) JobUnselected: {'identifier': 'programming_assignment'}
+[0.005044] (-) JobUnselected: {'identifier': 'two_wheeled_robot'}
+[0.005067] (-) JobUnselected: {'identifier': 'yolo_msg'}
+[0.005087] (-) JobUnselected: {'identifier': 'yolov8_ros2'}
+[0.005116] (gtg_behavior) JobQueued: {'identifier': 'gtg_behavior', 'dependencies': OrderedDict()}
+[0.005183] (gtg_behavior) JobStarted: {'identifier': 'gtg_behavior'}
+[0.098627] (-) TimerEvent: {}
+[0.200740] (-) TimerEvent: {}
+[0.303701] (-) TimerEvent: {}
+[0.406999] (-) TimerEvent: {}
+[0.508282] (-) TimerEvent: {}
+[0.609382] (-) TimerEvent: {}
+[0.710736] (-) TimerEvent: {}
+[0.811922] (-) TimerEvent: {}
+[0.913017] (-) TimerEvent: {}
+[1.013900] (-) TimerEvent: {}
+[1.115273] (-) TimerEvent: {}
+[1.216907] (-) TimerEvent: {}
+[1.318638] (-) TimerEvent: {}
+[1.420039] (-) TimerEvent: {}
+[1.520995] (-) TimerEvent: {}
+[1.623042] (-) TimerEvent: {}
+[1.724080] (-) TimerEvent: {}
+[1.826166] (-) TimerEvent: {}
+[1.927222] (-) TimerEvent: {}
+[2.028344] (-) TimerEvent: {}
+[2.129315] (-) TimerEvent: {}
+[2.230425] (-) TimerEvent: {}
+[2.281634] (gtg_behavior) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gtg_behavior', 'build', '--build-base', '/home/robertog/ros2_ws/build/gtg_behavior/build', 'install', '--record', '/home/robertog/ros2_ws/build/gtg_behavior/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robertog/ros2_ws/src/gtg_behavior', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robertog', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robertog/ros2_ws/install/yolo_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robertog', 'OLDPWD': '/home/robertog/ros2_ws/src/gtg_behavior', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1485', 'SYSTEMD_EXEC_PID': '1837', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3446', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robertog/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robertog', 'JOURNAL_STREAM': '8:30710', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robertog', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/robertog/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robertog:@/tmp/.ICE-unix/1628,unix/robertog:/tmp/.ICE-unix/1628', 'INVOCATION_ID': 'dbcb204c84b44bf3968d42b8321b0e92', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.GG29O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robertog/ros2_ws/install/yolov8_ros2:/home/robertog/ros2_ws/install/yolo_msg:/home/robertog/ros2_ws/install/two_wheeled_robot:/home/robertog/ros2_ws/install/programming_assignment:/home/robertog/ros2_ws/install/open_cv_example:/home/robertog/ros2_ws/install/mobile_robotics:/home/robertog/ros2_ws/install/minichallenge5:/home/robertog/ros2_ws/install/minichallenge4_bueno:/home/robertog/ros2_ws/install/minichallenge4:/home/robertog/ros2_ws/install/minichallenge3:/home/robertog/ros2_ws/install/mini1_checo:/home/robertog/ros2_ws/install/learning_tf2:/home/robertog/ros2_ws/install/gtg_behavior:/home/robertog/ros2_ws/install/gtg_ao:/home/robertog/ros2_ws/install/GTG_AO:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e969be03-67e0-401b-809f-98d991afb277', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robertog/ros2_ws/build/gtg_behavior', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robertog/ros2_ws/build/gtg_behavior/prefix_override:/home/robertog/ros2_ws/install/gtg_behavior/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/yolov8_ros2/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/yolo_msg/local/lib/python3.10/dist-packages:/home/robertog/ros2_ws/install/two_wheeled_robot/local/lib/python3.10/dist-packages:/home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/minichallenge4_bueno/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/minichallenge3/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/learning_tf2/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/gtg_behavior/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/GTG_AO/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/robertog/ros2_ws/install/yolo_msg:/home/robertog/ros2_ws/install/two_wheeled_robot'}, 'shell': False}
+[2.332232] (-) TimerEvent: {}
+[2.433615] (-) TimerEvent: {}
+[2.534999] (-) TimerEvent: {}
+[2.639977] (-) TimerEvent: {}
+[2.741387] (-) TimerEvent: {}
+[2.842678] (-) TimerEvent: {}
+[2.944665] (-) TimerEvent: {}
+[3.047097] (-) TimerEvent: {}
+[3.130055] (gtg_behavior) StdoutLine: {'line': b'running egg_info\n'}
+[3.131550] (gtg_behavior) StdoutLine: {'line': b'writing ../../build/gtg_behavior/gtg_behavior.egg-info/PKG-INFO\n'}
+[3.132337] (gtg_behavior) StdoutLine: {'line': b'writing dependency_links to ../../build/gtg_behavior/gtg_behavior.egg-info/dependency_links.txt\n'}
+[3.132687] (gtg_behavior) StdoutLine: {'line': b'writing entry points to ../../build/gtg_behavior/gtg_behavior.egg-info/entry_points.txt\n'}
+[3.133105] (gtg_behavior) StdoutLine: {'line': b'writing requirements to ../../build/gtg_behavior/gtg_behavior.egg-info/requires.txt\n'}
+[3.133317] (gtg_behavior) StdoutLine: {'line': b'writing top-level names to ../../build/gtg_behavior/gtg_behavior.egg-info/top_level.txt\n'}
+[3.136116] (gtg_behavior) StdoutLine: {'line': b"reading manifest file '../../build/gtg_behavior/gtg_behavior.egg-info/SOURCES.txt'\n"}
+[3.137108] (gtg_behavior) StdoutLine: {'line': b"writing manifest file '../../build/gtg_behavior/gtg_behavior.egg-info/SOURCES.txt'\n"}
+[3.137239] (gtg_behavior) StdoutLine: {'line': b'running build\n'}
+[3.137340] (gtg_behavior) StdoutLine: {'line': b'running build_py\n'}
+[3.137596] (gtg_behavior) StdoutLine: {'line': b'running install\n'}
+[3.138061] (gtg_behavior) StdoutLine: {'line': b'running install_lib\n'}
+[3.140549] (gtg_behavior) StdoutLine: {'line': b'running install_data\n'}
+[3.140690] (gtg_behavior) StdoutLine: {'line': b'copying config/params.yaml -> /home/robertog/ros2_ws/install/gtg_behavior/share/gtg_behavior/config\n'}
+[3.140932] (gtg_behavior) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.144149] (gtg_behavior) StdoutLine: {'line': b"removing '/home/robertog/ros2_ws/install/gtg_behavior/lib/python3.10/site-packages/gtg_behavior-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.144983] (gtg_behavior) StdoutLine: {'line': b'Copying ../../build/gtg_behavior/gtg_behavior.egg-info to /home/robertog/ros2_ws/install/gtg_behavior/lib/python3.10/site-packages/gtg_behavior-0.0.0-py3.10.egg-info\n'}
+[3.146514] (gtg_behavior) StdoutLine: {'line': b'running install_scripts\n'}
+[3.147133] (-) TimerEvent: {}
+[3.223677] (gtg_behavior) StdoutLine: {'line': b'Installing go_to_goal script to /home/robertog/ros2_ws/install/gtg_behavior/lib/gtg_behavior\n'}
+[3.225589] (gtg_behavior) StdoutLine: {'line': b"writing list of installed files to '/home/robertog/ros2_ws/build/gtg_behavior/install.log'\n"}
+[3.247429] (-) TimerEvent: {}
+[3.348462] (-) TimerEvent: {}
+[3.449750] (-) TimerEvent: {}
+[3.511599] (gtg_behavior) CommandEnded: {'returncode': 0}
+[3.543099] (gtg_behavior) JobEnded: {'identifier': 'gtg_behavior', 'rc': 0}
+[3.544627] (-) EventReactorShutdown: {}

@@ -1,0 +1,4 @@
+[console_scripts]
+line_follower = final_challenge.line_follower:main
+states = final_challenge.states:main
+

@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.001121] (-) JobUnselected: {'identifier': 'final_challenge'}
+[0.001208] (-) JobUnselected: {'identifier': 'gtg_ao'}
+[0.001243] (-) JobUnselected: {'identifier': 'gtg_behavior'}
+[0.001333] (-) JobUnselected: {'identifier': 'learning_tf2'}
+[0.001420] (-) JobUnselected: {'identifier': 'mini1_checo'}
+[0.001445] (-) JobUnselected: {'identifier': 'minichallenge3'}
+[0.001487] (-) JobUnselected: {'identifier': 'minichallenge4'}
+[0.001512] (-) JobUnselected: {'identifier': 'minichallenge4_bueno'}
+[0.001610] (-) JobUnselected: {'identifier': 'minichallenge5'}
+[0.001636] (-) JobUnselected: {'identifier': 'mobile_robotics'}
+[0.001659] (-) JobUnselected: {'identifier': 'open_cv_example'}
+[0.001680] (-) JobUnselected: {'identifier': 'programming_assignment'}
+[0.001701] (-) JobUnselected: {'identifier': 'two_wheeled_robot'}
+[0.001748] (-) JobUnselected: {'identifier': 'yolo_msg'}
+[0.001833] (-) JobUnselected: {'identifier': 'yolov8_ros2'}
+[0.001862] (dataset) JobQueued: {'identifier': 'dataset', 'dependencies': OrderedDict()}
+[0.001891] (dataset) JobStarted: {'identifier': 'dataset'}
+[0.099666] (-) TimerEvent: {}
+[0.200058] (-) TimerEvent: {}
+[0.300510] (-) TimerEvent: {}
+[0.401037] (-) TimerEvent: {}
+[0.501408] (-) TimerEvent: {}
+[0.601797] (-) TimerEvent: {}
+[0.702187] (-) TimerEvent: {}
+[0.802620] (-) TimerEvent: {}
+[0.818038] (dataset) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dataset', 'build', '--build-base', '/home/robertog/ros2_ws/build/dataset/build', 'install', '--record', '/home/robertog/ros2_ws/build/dataset/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robertog/ros2_ws/src/dataset', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robertog', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robertog/ros2_ws/install/yolo_msg/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robertog', 'OLDPWD': '/home/robertog', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1488', 'SYSTEMD_EXEC_PID': '1837', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8399', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robertog/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robertog', 'JOURNAL_STREAM': '8:25313', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robertog', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/robertog/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robertog:@/tmp/.ICE-unix/1632,unix/robertog:/tmp/.ICE-unix/1632', 'INVOCATION_ID': 'b776a308bb8742fd8514d94c39412634', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HYV2O2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robertog/ros2_ws/install/yolov8_ros2:/home/robertog/ros2_ws/install/yolo_msg:/home/robertog/ros2_ws/install/two_wheeled_robot:/home/robertog/ros2_ws/install/programming_assignment:/home/robertog/ros2_ws/install/open_cv_example:/home/robertog/ros2_ws/install/mobile_robotics:/home/robertog/ros2_ws/install/minichallenge5:/home/robertog/ros2_ws/install/minichallenge4_bueno:/home/robertog/ros2_ws/install/minichallenge4:/home/robertog/ros2_ws/install/minichallenge3:/home/robertog/ros2_ws/install/mini1_checo:/home/robertog/ros2_ws/install/learning_tf2:/home/robertog/ros2_ws/install/gtg_behavior:/home/robertog/ros2_ws/install/gtg_ao:/home/robertog/ros2_ws/install/final_challenge:/home/robertog/ros2_ws/install/dataset:/home/robertog/ros2_ws/install/GTG_AO:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7bd7d339-119c-475d-b04b-6b73911961f9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robertog/ros2_ws/build/dataset', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robertog/ros2_ws/build/dataset/prefix_override:/home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/yolov8_ros2/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/yolo_msg/local/lib/python3.10/dist-packages:/home/robertog/ros2_ws/install/two_wheeled_robot/local/lib/python3.10/dist-packages:/home/robertog/ros2_ws/install/programming_assignment/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/mobile_robotics/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/minichallenge4_bueno/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/minichallenge4/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/minichallenge3/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/learning_tf2/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/gtg_behavior/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/final_challenge/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages:/home/robertog/ros2_ws/install/GTG_AO/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/robertog/ros2_ws/install/yolo_msg:/home/robertog/ros2_ws/install/two_wheeled_robot'}, 'shell': False}
+[0.902737] (-) TimerEvent: {}
+[1.003203] (-) TimerEvent: {}
+[1.103577] (-) TimerEvent: {}
+[1.146083] (dataset) StdoutLine: {'line': b'running egg_info\n'}
+[1.146765] (dataset) StdoutLine: {'line': b'writing ../../build/dataset/dataset.egg-info/PKG-INFO\n'}
+[1.147077] (dataset) StdoutLine: {'line': b'writing dependency_links to ../../build/dataset/dataset.egg-info/dependency_links.txt\n'}
+[1.147282] (dataset) StdoutLine: {'line': b'writing entry points to ../../build/dataset/dataset.egg-info/entry_points.txt\n'}
+[1.147442] (dataset) StdoutLine: {'line': b'writing requirements to ../../build/dataset/dataset.egg-info/requires.txt\n'}
+[1.147611] (dataset) StdoutLine: {'line': b'writing top-level names to ../../build/dataset/dataset.egg-info/top_level.txt\n'}
+[1.149473] (dataset) StdoutLine: {'line': b"reading manifest file '../../build/dataset/dataset.egg-info/SOURCES.txt'\n"}
+[1.150346] (dataset) StdoutLine: {'line': b"writing manifest file '../../build/dataset/dataset.egg-info/SOURCES.txt'\n"}
+[1.150653] (dataset) StdoutLine: {'line': b'running build\n'}
+[1.150849] (dataset) StdoutLine: {'line': b'running build_py\n'}
+[1.150949] (dataset) StdoutLine: {'line': b'copying dataset/save_images.py -> /home/robertog/ros2_ws/build/dataset/build/lib/dataset\n'}
+[1.151156] (dataset) StdoutLine: {'line': b'running install\n'}
+[1.151533] (dataset) StdoutLine: {'line': b'running install_lib\n'}
+[1.152311] (dataset) StdoutLine: {'line': b'copying /home/robertog/ros2_ws/build/dataset/build/lib/dataset/save_images.py -> /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset\n'}
+[1.153204] (dataset) StdoutLine: {'line': b'byte-compiling /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset/save_images.py to save_images.cpython-310.pyc\n'}
+[1.153948] (dataset) StdoutLine: {'line': b'running install_data\n'}
+[1.154279] (dataset) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.155919] (dataset) StdoutLine: {'line': b"removing '/home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.156368] (dataset) StdoutLine: {'line': b'Copying ../../build/dataset/dataset.egg-info to /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset-0.0.0-py3.10.egg-info\n'}
+[1.157573] (dataset) StdoutLine: {'line': b'running install_scripts\n'}
+[1.181124] (dataset) StdoutLine: {'line': b'Installing save_images script to /home/robertog/ros2_ws/install/dataset/lib/dataset\n'}
+[1.181401] (dataset) StdoutLine: {'line': b"writing list of installed files to '/home/robertog/ros2_ws/build/dataset/install.log'\n"}
+[1.203709] (-) TimerEvent: {}
+[1.205687] (dataset) CommandEnded: {'returncode': 0}
+[1.216578] (dataset) JobEnded: {'identifier': 'dataset', 'rc': 0}
+[1.217366] (-) EventReactorShutdown: {}

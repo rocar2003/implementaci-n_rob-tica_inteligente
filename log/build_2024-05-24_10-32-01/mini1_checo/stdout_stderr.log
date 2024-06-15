@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/mini1_checo/mini1_checo.egg-info/PKG-INFO
+writing dependency_links to ../../build/mini1_checo/mini1_checo.egg-info/dependency_links.txt
+writing entry points to ../../build/mini1_checo/mini1_checo.egg-info/entry_points.txt
+writing requirements to ../../build/mini1_checo/mini1_checo.egg-info/requires.txt
+writing top-level names to ../../build/mini1_checo/mini1_checo.egg-info/top_level.txt
+reading manifest file '../../build/mini1_checo/mini1_checo.egg-info/SOURCES.txt'
+writing manifest file '../../build/mini1_checo/mini1_checo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/mini1_checo/mini1_checo.egg-info to /home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing signal_generator script to /home/robertog/ros2_ws/install/mini1_checo/lib/mini1_checo
+writing list of installed files to '/home/robertog/ros2_ws/build/mini1_checo/install.log'

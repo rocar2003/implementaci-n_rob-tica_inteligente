@@ -1,0 +1,6 @@
+source;share/minichallenge4/hook/pythonpath.ps1
+source;share/minichallenge4/hook/pythonpath.dsv
+source;share/minichallenge4/hook/pythonpath.sh
+source;share/minichallenge4/hook/ament_prefix_path.ps1
+source;share/minichallenge4/hook/ament_prefix_path.dsv
+source;share/minichallenge4/hook/ament_prefix_path.sh

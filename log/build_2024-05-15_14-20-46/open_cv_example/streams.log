@@ -1,0 +1,21 @@
+[2.792s] Invoking command in '/home/robertog/ros2_ws/src/open_cv_example': PYTHONPATH=/home/robertog/ros2_ws/build/open_cv_example/prefix_override:/home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/open_cv_example build --build-base /home/robertog/ros2_ws/build/open_cv_example/build install --record /home/robertog/ros2_ws/build/open_cv_example/install.log --single-version-externally-managed install_data
+[2.884s] running egg_info
+[2.884s] writing ../../build/open_cv_example/open_cv_example.egg-info/PKG-INFO
+[2.884s] writing dependency_links to ../../build/open_cv_example/open_cv_example.egg-info/dependency_links.txt
+[2.885s] writing entry points to ../../build/open_cv_example/open_cv_example.egg-info/entry_points.txt
+[2.885s] writing requirements to ../../build/open_cv_example/open_cv_example.egg-info/requires.txt
+[2.885s] writing top-level names to ../../build/open_cv_example/open_cv_example.egg-info/top_level.txt
+[2.887s] reading manifest file '../../build/open_cv_example/open_cv_example.egg-info/SOURCES.txt'
+[2.887s] adding license file 'LICENSE'
+[2.888s] writing manifest file '../../build/open_cv_example/open_cv_example.egg-info/SOURCES.txt'
+[2.888s] running build
+[2.888s] running build_py
+[2.889s] running install
+[2.889s] running install_lib
+[2.890s] running install_data
+[2.891s] running install_egg_info
+[2.892s] removing '/home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages/open_cv_example-0.0.0-py3.10.egg-info' (and everything under it)
+[2.893s] Copying ../../build/open_cv_example/open_cv_example.egg-info to /home/robertog/ros2_ws/install/open_cv_example/lib/python3.10/site-packages/open_cv_example-0.0.0-py3.10.egg-info
+[2.894s] running install_scripts
+[2.916s] Installing circle_id script to /home/robertog/ros2_ws/install/open_cv_example/lib/open_cv_example
+[2.917s] writing list of installed files to '/home/robertog/ros2_ws/build/open_cv_example/install.log'

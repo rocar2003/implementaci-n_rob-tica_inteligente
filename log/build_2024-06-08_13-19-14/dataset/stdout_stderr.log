@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/dataset/dataset.egg-info
+writing ../../build/dataset/dataset.egg-info/PKG-INFO
+writing dependency_links to ../../build/dataset/dataset.egg-info/dependency_links.txt
+writing entry points to ../../build/dataset/dataset.egg-info/entry_points.txt
+writing requirements to ../../build/dataset/dataset.egg-info/requires.txt
+writing top-level names to ../../build/dataset/dataset.egg-info/top_level.txt
+writing manifest file '../../build/dataset/dataset.egg-info/SOURCES.txt'
+reading manifest file '../../build/dataset/dataset.egg-info/SOURCES.txt'
+writing manifest file '../../build/dataset/dataset.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robertog/ros2_ws/build/dataset/build
+creating /home/robertog/ros2_ws/build/dataset/build/lib
+creating /home/robertog/ros2_ws/build/dataset/build/lib/dataset
+copying dataset/__init__.py -> /home/robertog/ros2_ws/build/dataset/build/lib/dataset
+copying dataset/save_images.py -> /home/robertog/ros2_ws/build/dataset/build/lib/dataset
+running install
+running install_lib
+creating /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset
+copying /home/robertog/ros2_ws/build/dataset/build/lib/dataset/__init__.py -> /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset
+copying /home/robertog/ros2_ws/build/dataset/build/lib/dataset/save_images.py -> /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset
+byte-compiling /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset/save_images.py to save_images.cpython-310.pyc
+running install_data
+creating /home/robertog/ros2_ws/install/dataset/share/ament_index
+creating /home/robertog/ros2_ws/install/dataset/share/ament_index/resource_index
+creating /home/robertog/ros2_ws/install/dataset/share/ament_index/resource_index/packages
+copying resource/dataset -> /home/robertog/ros2_ws/install/dataset/share/ament_index/resource_index/packages
+copying package.xml -> /home/robertog/ros2_ws/install/dataset/share/dataset
+running install_egg_info
+Copying ../../build/dataset/dataset.egg-info to /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset-0.0.0-py3.10.egg-info
+running install_scripts
+Installing save_images script to /home/robertog/ros2_ws/install/dataset/lib/dataset
+writing list of installed files to '/home/robertog/ros2_ws/build/dataset/install.log'

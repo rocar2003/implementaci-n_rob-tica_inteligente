@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/minichallenge5/minichallenge5.egg-info
+writing ../../build/minichallenge5/minichallenge5.egg-info/PKG-INFO
+writing dependency_links to ../../build/minichallenge5/minichallenge5.egg-info/dependency_links.txt
+writing entry points to ../../build/minichallenge5/minichallenge5.egg-info/entry_points.txt
+writing requirements to ../../build/minichallenge5/minichallenge5.egg-info/requires.txt
+writing top-level names to ../../build/minichallenge5/minichallenge5.egg-info/top_level.txt
+writing manifest file '../../build/minichallenge5/minichallenge5.egg-info/SOURCES.txt'
+reading manifest file '../../build/minichallenge5/minichallenge5.egg-info/SOURCES.txt'
+writing manifest file '../../build/minichallenge5/minichallenge5.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robertog/ros2_ws/build/minichallenge5/build
+creating /home/robertog/ros2_ws/build/minichallenge5/build/lib
+creating /home/robertog/ros2_ws/build/minichallenge5/build/lib/minichallenge5
+copying minichallenge5/__init__.py -> /home/robertog/ros2_ws/build/minichallenge5/build/lib/minichallenge5
+copying minichallenge5/traffic_lights.py -> /home/robertog/ros2_ws/build/minichallenge5/build/lib/minichallenge5
+copying minichallenge5/line_follower.py -> /home/robertog/ros2_ws/build/minichallenge5/build/lib/minichallenge5
+running install
+running install_lib
+creating /home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages/minichallenge5
+copying /home/robertog/ros2_ws/build/minichallenge5/build/lib/minichallenge5/__init__.py -> /home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages/minichallenge5
+copying /home/robertog/ros2_ws/build/minichallenge5/build/lib/minichallenge5/traffic_lights.py -> /home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages/minichallenge5
+copying /home/robertog/ros2_ws/build/minichallenge5/build/lib/minichallenge5/line_follower.py -> /home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages/minichallenge5
+byte-compiling /home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages/minichallenge5/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages/minichallenge5/traffic_lights.py to traffic_lights.cpython-310.pyc
+byte-compiling /home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages/minichallenge5/line_follower.py to line_follower.cpython-310.pyc
+running install_data
+creating /home/robertog/ros2_ws/install/minichallenge5/share/ament_index
+creating /home/robertog/ros2_ws/install/minichallenge5/share/ament_index/resource_index
+creating /home/robertog/ros2_ws/install/minichallenge5/share/ament_index/resource_index/packages
+copying resource/minichallenge5 -> /home/robertog/ros2_ws/install/minichallenge5/share/ament_index/resource_index/packages
+copying package.xml -> /home/robertog/ros2_ws/install/minichallenge5/share/minichallenge5
+creating /home/robertog/ros2_ws/install/minichallenge5/share/minichallenge5/launch
+creating /home/robertog/ros2_ws/install/minichallenge5/share/minichallenge5/config
+running install_egg_info
+Copying ../../build/minichallenge5/minichallenge5.egg-info to /home/robertog/ros2_ws/install/minichallenge5/lib/python3.10/site-packages/minichallenge5-0.0.0-py3.10.egg-info
+running install_scripts
+Installing line_follower script to /home/robertog/ros2_ws/install/minichallenge5/lib/minichallenge5
+Installing traffic_lights script to /home/robertog/ros2_ws/install/minichallenge5/lib/minichallenge5
+writing list of installed files to '/home/robertog/ros2_ws/build/minichallenge5/install.log'

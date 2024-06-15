@@ -1,0 +1,187 @@
+import rclpy
+from rclpy.node import Node
+from std_msgs.msg import String, Bool
+from geometry_msgs.msg import Twist
+from time import time
+
+class MasterControlNode(Node):
+    def __init__(self):
+        super().__init__('master_control_node')
+        # SUSCRIPTORES
+        self.turn_subscriber = self.create_subscription(String, '/turn_instruction', self.turn_callback, 10)
+        self.signal_subscriber = self.create_subscription(String, '/signs_on_road', self.signal_callback, 10)
+        self.traffic_light_subscriber = self.create_subscription(String, '/semaphore_state', self.traffic_light_callback, 10)
+        self.twist_subscriber = self.create_subscription(Twist, 'cmd_vel_aux', self.twist_callback, 10)
+        # PUBLICADORES
+        self.velocity_publisher = self.create_publisher(Twist, 'cmd_vel', 10)
+        # TIMER
+        cycle = 0.1
+        self.timer = self.create_timer(cycle, self.timer_callback)
+        # VARIABLES DE LOS CB
+        self.current_signal_road = ""
+        self.previous_signal_road = ""
+        self.previous_turn = ""
+        self.current_turn = ""
+        self.current_traffic_light = ""
+        self.dotted = False
+        self.current_twist = Twist()
+        self.robot_vel = Twist()
+        # VARIABLE CMD
+        self.stop_start_time = None
+        self.is_stopping = False
+        self.give_way_start_time = None
+        self.is_giving_way = False
+        self.working = False
+        self.work_start_time = None
+        self.go_straight_start_time = None
+        self.is_going_straight = False
+        self.turn_left_start_time = None
+        self.is_turning_left = False
+        self.right_start_time = None
+        self.is_turning_right = False
+
+    def turn_callback(self, msg):
+        self.get_logger().info(f'Turn signal: {msg.data}')
+        self.previous_turn = self.current_turn
+        self.current_turn = msg.data
+
+        if self.previous_turn == "Frente" and self.current_turn != "Frente" and not self.is_going_straight:
+            self.go_straight_start_time = time()
+            self.is_going_straight = True
+            self.get_logger().info('Straight is no longer visible, starting going straight')
+        
+        if self.previous_turn == "Left" and self.current_turn != "Left" and not self.is_turning_left:
+            self.turn_left_start_time = time()
+            self.is_turning_left = True
+            self.get_logger().info('Left turn signal no longer visible, starting left turn sequence')
+
+        if self.previous_turn == "right" and self.current_turn != "right" and not self.is_turning_right:
+            self.right_start_time = time()
+            self.is_turning_right = True
+            self.get_logger().info('Right turn signal no longer visible, starting right turn sequence')
+
+    def signal_callback(self, msg):
+        self.get_logger().info(f'Received signal: {msg.data}')
+        self.previous_signal_road = self.current_signal_road
+        self.current_signal_road = msg.data
+
+        if self.previous_signal_road == "Stop" and self.current_signal_road != "Stop" and not self.is_stopping:
+            self.stop_start_time = time()
+            self.is_stopping = True
+            self.get_logger().info('Stop signal no longer visible, starting stop timer')
+
+        if self.previous_signal_road == "Giveway" and self.current_signal_road != "Giveway" and not self.is_giving_way:
+            self.give_way_start_time = time()
+            self.is_giving_way = True
+            self.get_logger().info('Give Way signal detected, reducing speed for 2 seconds')
+
+        if self.previous_signal_road == "work_in_progress" and self.current_signal_road != "work_in_progress" and not self.working:
+            self.work_start_time = time()
+            self.working = True
+            self.get_logger().info('Work in Progress signal detected, reducing speed for 5 seconds')
+
+    def traffic_light_callback(self, msg):
+        self.get_logger().info(f'Traffic light signal: {msg.data}')
+        self.current_traffic_light = msg.data
+
+    def twist_callback(self, msg):
+        self.current_twist = msg
+
+    def timer_callback(self):
+        if self.current_traffic_light == "Red":
+            self.robot_vel.linear.x = 0.0
+            self.robot_vel.angular.z = 0.0
+            self.velocity_publisher.publish(self.robot_vel)
+            self.get_logger().info('Red light detected, stopping')
+        elif self.current_traffic_light == "Yellow":
+            self.robot_vel = self.current_twist
+            self.robot_vel.linear.x *= 0.5  # Reduce speed by half
+            self.velocity_publisher.publish(self.robot_vel)
+            self.get_logger().info('Yellow light detected, reducing speed')
+        elif self.is_stopping:
+            if time() - self.stop_start_time < 10:
+                self.robot_vel = Twist()
+                self.robot_vel.linear.x = 0.0
+                self.robot_vel.angular.z = 0.0
+                self.velocity_publisher.publish(self.robot_vel)
+                self.get_logger().info('Stopping for 10 seconds')
+            else:
+                self.is_stopping = False
+                self.get_logger().info('Resuming line following')
+                self.velocity_publisher.publish(self.current_twist)
+        elif self.is_giving_way:
+            if time() - self.give_way_start_time < 2:
+                self.robot_vel = self.current_twist
+                self.robot_vel.linear.x *= 0.5  # Reduce speed by half
+                self.velocity_publisher.publish(self.robot_vel)
+                self.get_logger().info('Giving way for 2 seconds')
+            else:
+                self.is_giving_way = False
+                self.get_logger().info('Resuming normal speed')
+                self.velocity_publisher.publish(self.current_twist)
+        elif self.working:
+            if time() - self.work_start_time < 5:
+                self.robot_vel = self.current_twist
+                self.robot_vel.linear.x *= 0.5  # Reduce speed by half
+                self.velocity_publisher.publish(self.robot_vel)
+                self.get_logger().info('Working for 5 seconds')
+            else:
+                self.working = False
+                self.get_logger().info('Resuming normal speed')
+                self.velocity_publisher.publish(self.current_twist)
+        elif self.is_turning_left:
+            if time() - self.turn_left_start_time < 2:
+                self.robot_vel.linear.x = 0.2
+                self.robot_vel.angular.z = 0.0
+                self.velocity_publisher.publish(self.robot_vel)
+            elif time() - self.turn_left_start_time < 6.8 and time() - self.turn_left_start_time > 2:
+                self.robot_vel.linear.x = 0.0
+                self.robot_vel.angular.z = 0.4
+                self.velocity_publisher.publish(self.robot_vel)
+            elif time() - self.turn_left_start_time < 7.8 and time() - self.turn_left_start_time > 6.8:
+                self.robot_vel.linear.x = 0.1
+                self.robot_vel.angular.z = 0.0
+                self.velocity_publisher.publish(self.robot_vel)
+            else:
+                self.is_turning_left = False
+                self.get_logger().info('Resuming line following')
+                self.velocity_publisher.publish(self.current_twist)
+        elif self.is_turning_right:
+            if time() - self.right_start_time < 1.5:
+                self.robot_vel.linear.x = 0.2
+                self.robot_vel.angular.z = 0.0
+                self.velocity_publisher.publish(self.robot_vel)
+            elif time() - self.right_start_time < 9.5 and time() - self.right_start_time > 1.5:
+                self.robot_vel.linear.x = 0.0
+                self.robot_vel.angular.z = -0.2
+                self.velocity_publisher.publish(self.robot_vel)
+            elif time() - self.right_start_time < 11 and time() - self.right_start_time > 9.5:
+                self.robot_vel.linear.x = 0.1
+                self.robot_vel.angular.z = 0.0
+                self.velocity_publisher.publish(self.robot_vel)
+            else:
+                self.is_turning_right = False
+                self.get_logger().info('Resuming line following')
+                self.velocity_publisher.publish(self.current_twist)
+        elif self.is_going_straight:
+            if time() - self.go_straight_start_time < 3:
+                self.robot_vel.linear.x = 0.2  # Set a constant forward speed
+                self.robot_vel.angular.z = 0.0
+                self.velocity_publisher.publish(self.robot_vel)
+                self.get_logger().info('Going straight for 3 seconds')
+            else:
+                self.is_going_straight = False
+                self.get_logger().info('Resuming line following')
+                self.velocity_publisher.publish(self.current_twist)
+        else:
+            self.velocity_publisher.publish(self.current_twist)
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = MasterControlNode()
+    rclpy.spin(node)
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

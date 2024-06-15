@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/GTG_AO/GTG_AO.egg-info
+writing ../../build/GTG_AO/GTG_AO.egg-info/PKG-INFO
+writing dependency_links to ../../build/GTG_AO/GTG_AO.egg-info/dependency_links.txt
+writing entry points to ../../build/GTG_AO/GTG_AO.egg-info/entry_points.txt
+writing requirements to ../../build/GTG_AO/GTG_AO.egg-info/requires.txt
+writing top-level names to ../../build/GTG_AO/GTG_AO.egg-info/top_level.txt
+writing manifest file '../../build/GTG_AO/GTG_AO.egg-info/SOURCES.txt'
+reading manifest file '../../build/GTG_AO/GTG_AO.egg-info/SOURCES.txt'
+writing manifest file '../../build/GTG_AO/GTG_AO.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/robertog/ros2_ws/build/GTG_AO/build
+creating /home/robertog/ros2_ws/build/GTG_AO/build/lib
+creating /home/robertog/ros2_ws/build/GTG_AO/build/lib/GTG_AO
+copying GTG_AO/__init__.py -> /home/robertog/ros2_ws/build/GTG_AO/build/lib/GTG_AO
+copying GTG_AO/avoid_obstacles.py -> /home/robertog/ros2_ws/build/GTG_AO/build/lib/GTG_AO
+copying GTG_AO/go_to_goal.py -> /home/robertog/ros2_ws/build/GTG_AO/build/lib/GTG_AO
+running install
+running install_lib
+creating /home/robertog/ros2_ws/install/GTG_AO/lib/python3.10/site-packages/GTG_AO
+copying /home/robertog/ros2_ws/build/GTG_AO/build/lib/GTG_AO/__init__.py -> /home/robertog/ros2_ws/install/GTG_AO/lib/python3.10/site-packages/GTG_AO
+copying /home/robertog/ros2_ws/build/GTG_AO/build/lib/GTG_AO/avoid_obstacles.py -> /home/robertog/ros2_ws/install/GTG_AO/lib/python3.10/site-packages/GTG_AO
+copying /home/robertog/ros2_ws/build/GTG_AO/build/lib/GTG_AO/go_to_goal.py -> /home/robertog/ros2_ws/install/GTG_AO/lib/python3.10/site-packages/GTG_AO
+byte-compiling /home/robertog/ros2_ws/install/GTG_AO/lib/python3.10/site-packages/GTG_AO/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/robertog/ros2_ws/install/GTG_AO/lib/python3.10/site-packages/GTG_AO/avoid_obstacles.py to avoid_obstacles.cpython-310.pyc
+byte-compiling /home/robertog/ros2_ws/install/GTG_AO/lib/python3.10/site-packages/GTG_AO/go_to_goal.py to go_to_goal.cpython-310.pyc
+running install_data
+creating /home/robertog/ros2_ws/install/GTG_AO/share/ament_index
+creating /home/robertog/ros2_ws/install/GTG_AO/share/ament_index/resource_index
+creating /home/robertog/ros2_ws/install/GTG_AO/share/ament_index/resource_index/packages
+copying resource/GTG_AO -> /home/robertog/ros2_ws/install/GTG_AO/share/ament_index/resource_index/packages
+copying package.xml -> /home/robertog/ros2_ws/install/GTG_AO/share/GTG_AO
+running install_egg_info
+Copying ../../build/GTG_AO/GTG_AO.egg-info to /home/robertog/ros2_ws/install/GTG_AO/lib/python3.10/site-packages/GTG_AO-0.0.0-py3.10.egg-info
+running install_scripts
+Installing avoid_obstacles script to /home/robertog/ros2_ws/install/GTG_AO/lib/GTG_AO
+writing list of installed files to '/home/robertog/ros2_ws/build/GTG_AO/install.log'

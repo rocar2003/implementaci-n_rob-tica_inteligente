@@ -1,0 +1,21 @@
+[4.671s] Invoking command in '/home/robertog/ros2_ws/src/dataset': PYTHONPATH=/home/robertog/ros2_ws/build/dataset/prefix_override:/home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dataset build --build-base /home/robertog/ros2_ws/build/dataset/build install --record /home/robertog/ros2_ws/build/dataset/install.log --single-version-externally-managed install_data
+[5.204s] running egg_info
+[5.206s] writing ../../build/dataset/dataset.egg-info/PKG-INFO
+[5.207s] writing dependency_links to ../../build/dataset/dataset.egg-info/dependency_links.txt
+[5.207s] writing entry points to ../../build/dataset/dataset.egg-info/entry_points.txt
+[5.207s] writing requirements to ../../build/dataset/dataset.egg-info/requires.txt
+[5.208s] writing top-level names to ../../build/dataset/dataset.egg-info/top_level.txt
+[5.212s] reading manifest file '../../build/dataset/dataset.egg-info/SOURCES.txt'
+[5.213s] writing manifest file '../../build/dataset/dataset.egg-info/SOURCES.txt'
+[5.213s] running build
+[5.213s] running build_py
+[5.216s] running install
+[5.217s] running install_lib
+[5.223s] running install_data
+[5.232s] running install_egg_info
+[5.234s] removing '/home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset-0.0.0-py3.10.egg-info' (and everything under it)
+[5.236s] Copying ../../build/dataset/dataset.egg-info to /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset-0.0.0-py3.10.egg-info
+[5.238s] running install_scripts
+[5.278s] Installing save_images script to /home/robertog/ros2_ws/install/dataset/lib/dataset
+[5.279s] writing list of installed files to '/home/robertog/ros2_ws/build/dataset/install.log'
+[5.426s] Invoked command in '/home/robertog/ros2_ws/src/dataset' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/dataset/prefix_override:/home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dataset build --build-base /home/robertog/ros2_ws/build/dataset/build install --record /home/robertog/ros2_ws/build/dataset/install.log --single-version-externally-managed install_data

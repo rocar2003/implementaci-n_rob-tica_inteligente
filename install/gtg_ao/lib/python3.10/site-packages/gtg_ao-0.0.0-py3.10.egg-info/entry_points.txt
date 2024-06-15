@@ -1,0 +1,4 @@
+[console_scripts]
+avoid_obstacles = gtg_ao.avoid_obstacles:main
+go_to_goal = gtg_ao.go_to_goal:main
+

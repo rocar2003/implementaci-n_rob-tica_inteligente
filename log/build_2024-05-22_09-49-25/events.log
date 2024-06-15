@@ -1,0 +1,10 @@
+[0.000000] (-) TimerEvent: {}
+[0.000514] (-) JobUnselected: {'identifier': 'mini1_checo'}
+[0.000625] (-) JobUnselected: {'identifier': 'minichallenge3'}
+[0.000742] (-) JobUnselected: {'identifier': 'minichallenge4'}
+[0.000823] (-) JobUnselected: {'identifier': 'minichallenge4_bueno'}
+[0.000866] (-) JobUnselected: {'identifier': 'mobile_robotics'}
+[0.000890] (-) JobUnselected: {'identifier': 'open_cv_example'}
+[0.000911] (-) JobUnselected: {'identifier': 'programming_assignment'}
+[0.000930] (-) JobUnselected: {'identifier': 'two_wheeled_robot'}
+[0.000951] (-) EventReactorShutdown: {}

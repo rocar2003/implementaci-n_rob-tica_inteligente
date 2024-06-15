@@ -1,0 +1,3 @@
+[console_scripts]
+avoid_obstacles = GTG_AO.avoid_obstacles:main
+

@@ -1,0 +1,24 @@
+[0.915s] Invoking command in '/home/robertog/ros2_ws/src/gtg_behavior': PYTHONPATH=/home/robertog/ros2_ws/build/gtg_behavior/prefix_override:/home/robertog/ros2_ws/install/gtg_behavior/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gtg_behavior build --build-base /home/robertog/ros2_ws/build/gtg_behavior/build install --record /home/robertog/ros2_ws/build/gtg_behavior/install.log --single-version-externally-managed install_data
+[1.280s] running egg_info
+[1.281s] writing ../../build/gtg_behavior/gtg_behavior.egg-info/PKG-INFO
+[1.282s] writing dependency_links to ../../build/gtg_behavior/gtg_behavior.egg-info/dependency_links.txt
+[1.282s] writing entry points to ../../build/gtg_behavior/gtg_behavior.egg-info/entry_points.txt
+[1.282s] writing requirements to ../../build/gtg_behavior/gtg_behavior.egg-info/requires.txt
+[1.282s] writing top-level names to ../../build/gtg_behavior/gtg_behavior.egg-info/top_level.txt
+[1.284s] reading manifest file '../../build/gtg_behavior/gtg_behavior.egg-info/SOURCES.txt'
+[1.285s] writing manifest file '../../build/gtg_behavior/gtg_behavior.egg-info/SOURCES.txt'
+[1.285s] running build
+[1.285s] running build_py
+[1.286s] copying gtg_behavior/go_to_goal.py -> /home/robertog/ros2_ws/build/gtg_behavior/build/lib/gtg_behavior
+[1.286s] running install
+[1.286s] running install_lib
+[1.287s] copying /home/robertog/ros2_ws/build/gtg_behavior/build/lib/gtg_behavior/go_to_goal.py -> /home/robertog/ros2_ws/install/gtg_behavior/lib/python3.10/site-packages/gtg_behavior
+[1.288s] byte-compiling /home/robertog/ros2_ws/install/gtg_behavior/lib/python3.10/site-packages/gtg_behavior/go_to_goal.py to go_to_goal.cpython-310.pyc
+[1.290s] running install_data
+[1.291s] running install_egg_info
+[1.293s] removing '/home/robertog/ros2_ws/install/gtg_behavior/lib/python3.10/site-packages/gtg_behavior-0.0.0-py3.10.egg-info' (and everything under it)
+[1.294s] Copying ../../build/gtg_behavior/gtg_behavior.egg-info to /home/robertog/ros2_ws/install/gtg_behavior/lib/python3.10/site-packages/gtg_behavior-0.0.0-py3.10.egg-info
+[1.295s] running install_scripts
+[1.326s] Installing go_to_goal script to /home/robertog/ros2_ws/install/gtg_behavior/lib/gtg_behavior
+[1.326s] writing list of installed files to '/home/robertog/ros2_ws/build/gtg_behavior/install.log'
+[1.363s] Invoked command in '/home/robertog/ros2_ws/src/gtg_behavior' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/gtg_behavior/prefix_override:/home/robertog/ros2_ws/install/gtg_behavior/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gtg_behavior build --build-base /home/robertog/ros2_ws/build/gtg_behavior/build install --record /home/robertog/ros2_ws/build/gtg_behavior/install.log --single-version-externally-managed install_data

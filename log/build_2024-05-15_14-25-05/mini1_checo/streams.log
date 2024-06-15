@@ -1,0 +1,24 @@
+[2.421s] Invoking command in '/home/robertog/ros2_ws/src/mini1_checo': PYTHONPATH=/home/robertog/ros2_ws/build/mini1_checo/prefix_override:/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini1_checo build --build-base /home/robertog/ros2_ws/build/mini1_checo/build install --record /home/robertog/ros2_ws/build/mini1_checo/install.log --single-version-externally-managed install_data
+[2.952s] running egg_info
+[2.952s] writing ../../build/mini1_checo/mini1_checo.egg-info/PKG-INFO
+[2.952s] writing dependency_links to ../../build/mini1_checo/mini1_checo.egg-info/dependency_links.txt
+[2.953s] writing entry points to ../../build/mini1_checo/mini1_checo.egg-info/entry_points.txt
+[2.953s] writing requirements to ../../build/mini1_checo/mini1_checo.egg-info/requires.txt
+[2.953s] writing top-level names to ../../build/mini1_checo/mini1_checo.egg-info/top_level.txt
+[2.953s] reading manifest file '../../build/mini1_checo/mini1_checo.egg-info/SOURCES.txt'
+[2.954s] writing manifest file '../../build/mini1_checo/mini1_checo.egg-info/SOURCES.txt'
+[2.954s] running build
+[2.954s] running build_py
+[2.954s] copying mini1_checo/signal_generator.py -> /home/robertog/ros2_ws/build/mini1_checo/build/lib/mini1_checo
+[2.954s] running install
+[2.954s] running install_lib
+[2.955s] copying /home/robertog/ros2_ws/build/mini1_checo/build/lib/mini1_checo/signal_generator.py -> /home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo
+[2.955s] byte-compiling /home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo/signal_generator.py to signal_generator.cpython-310.pyc
+[2.955s] running install_data
+[2.956s] running install_egg_info
+[2.956s] removing '/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo-0.0.0-py3.10.egg-info' (and everything under it)
+[2.956s] Copying ../../build/mini1_checo/mini1_checo.egg-info to /home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages/mini1_checo-0.0.0-py3.10.egg-info
+[2.956s] running install_scripts
+[2.961s] Installing signal_generator script to /home/robertog/ros2_ws/install/mini1_checo/lib/mini1_checo
+[2.961s] writing list of installed files to '/home/robertog/ros2_ws/build/mini1_checo/install.log'
+[2.997s] Invoked command in '/home/robertog/ros2_ws/src/mini1_checo' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/mini1_checo/prefix_override:/home/robertog/ros2_ws/install/mini1_checo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mini1_checo build --build-base /home/robertog/ros2_ws/build/mini1_checo/build install --record /home/robertog/ros2_ws/build/mini1_checo/install.log --single-version-externally-managed install_data

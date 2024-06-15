@@ -1,0 +1,24 @@
+[3.190s] Invoking command in '/home/robertog/ros2_ws/src/dataset': PYTHONPATH=/home/robertog/ros2_ws/build/dataset/prefix_override:/home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dataset build --build-base /home/robertog/ros2_ws/build/dataset/build install --record /home/robertog/ros2_ws/build/dataset/install.log --single-version-externally-managed install_data
+[3.553s] running egg_info
+[3.554s] writing ../../build/dataset/dataset.egg-info/PKG-INFO
+[3.555s] writing dependency_links to ../../build/dataset/dataset.egg-info/dependency_links.txt
+[3.555s] writing entry points to ../../build/dataset/dataset.egg-info/entry_points.txt
+[3.556s] writing requirements to ../../build/dataset/dataset.egg-info/requires.txt
+[3.556s] writing top-level names to ../../build/dataset/dataset.egg-info/top_level.txt
+[3.561s] reading manifest file '../../build/dataset/dataset.egg-info/SOURCES.txt'
+[3.562s] writing manifest file '../../build/dataset/dataset.egg-info/SOURCES.txt'
+[3.562s] running build
+[3.562s] running build_py
+[3.563s] copying dataset/save_images.py -> /home/robertog/ros2_ws/build/dataset/build/lib/dataset
+[3.564s] running install
+[3.565s] running install_lib
+[3.571s] copying /home/robertog/ros2_ws/build/dataset/build/lib/dataset/save_images.py -> /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset
+[3.573s] byte-compiling /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset/save_images.py to save_images.cpython-310.pyc
+[3.575s] running install_data
+[3.575s] running install_egg_info
+[3.580s] removing '/home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset-0.0.0-py3.10.egg-info' (and everything under it)
+[3.580s] Copying ../../build/dataset/dataset.egg-info to /home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages/dataset-0.0.0-py3.10.egg-info
+[3.582s] running install_scripts
+[3.620s] Installing save_images script to /home/robertog/ros2_ws/install/dataset/lib/dataset
+[3.621s] writing list of installed files to '/home/robertog/ros2_ws/build/dataset/install.log'
+[3.817s] Invoked command in '/home/robertog/ros2_ws/src/dataset' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/dataset/prefix_override:/home/robertog/ros2_ws/install/dataset/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dataset build --build-base /home/robertog/ros2_ws/build/dataset/build install --record /home/robertog/ros2_ws/build/dataset/install.log --single-version-externally-managed install_data

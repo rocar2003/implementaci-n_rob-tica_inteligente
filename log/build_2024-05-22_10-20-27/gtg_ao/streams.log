@@ -1,0 +1,44 @@
+[0.825s] Invoking command in '/home/robertog/ros2_ws/src/gtg_ao': PYTHONPATH=/home/robertog/ros2_ws/build/gtg_ao/prefix_override:/home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gtg_ao build --build-base /home/robertog/ros2_ws/build/gtg_ao/build install --record /home/robertog/ros2_ws/build/gtg_ao/install.log --single-version-externally-managed install_data
+[1.183s] running egg_info
+[1.184s] creating ../../build/gtg_ao/gtg_ao.egg-info
+[1.184s] writing ../../build/gtg_ao/gtg_ao.egg-info/PKG-INFO
+[1.185s] writing dependency_links to ../../build/gtg_ao/gtg_ao.egg-info/dependency_links.txt
+[1.185s] writing entry points to ../../build/gtg_ao/gtg_ao.egg-info/entry_points.txt
+[1.185s] writing requirements to ../../build/gtg_ao/gtg_ao.egg-info/requires.txt
+[1.185s] writing top-level names to ../../build/gtg_ao/gtg_ao.egg-info/top_level.txt
+[1.185s] writing manifest file '../../build/gtg_ao/gtg_ao.egg-info/SOURCES.txt'
+[1.187s] reading manifest file '../../build/gtg_ao/gtg_ao.egg-info/SOURCES.txt'
+[1.188s] writing manifest file '../../build/gtg_ao/gtg_ao.egg-info/SOURCES.txt'
+[1.188s] running build
+[1.188s] running build_py
+[1.188s] creating /home/robertog/ros2_ws/build/gtg_ao/build
+[1.189s] creating /home/robertog/ros2_ws/build/gtg_ao/build/lib
+[1.189s] creating /home/robertog/ros2_ws/build/gtg_ao/build/lib/gtg_ao
+[1.189s] copying gtg_ao/__init__.py -> /home/robertog/ros2_ws/build/gtg_ao/build/lib/gtg_ao
+[1.189s] copying gtg_ao/avoid_obstacles.py -> /home/robertog/ros2_ws/build/gtg_ao/build/lib/gtg_ao
+[1.189s] copying gtg_ao/go_to_goal.py -> /home/robertog/ros2_ws/build/gtg_ao/build/lib/gtg_ao
+[1.189s] running install
+[1.189s] running install_lib
+[1.190s] creating /home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages/gtg_ao
+[1.190s] copying /home/robertog/ros2_ws/build/gtg_ao/build/lib/gtg_ao/__init__.py -> /home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages/gtg_ao
+[1.191s] copying /home/robertog/ros2_ws/build/gtg_ao/build/lib/gtg_ao/avoid_obstacles.py -> /home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages/gtg_ao
+[1.191s] copying /home/robertog/ros2_ws/build/gtg_ao/build/lib/gtg_ao/go_to_goal.py -> /home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages/gtg_ao
+[1.191s] byte-compiling /home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages/gtg_ao/__init__.py to __init__.cpython-310.pyc
+[1.192s] byte-compiling /home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages/gtg_ao/avoid_obstacles.py to avoid_obstacles.cpython-310.pyc
+[1.193s] byte-compiling /home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages/gtg_ao/go_to_goal.py to go_to_goal.cpython-310.pyc
+[1.194s] running install_data
+[1.194s] creating /home/robertog/ros2_ws/install/gtg_ao/share/ament_index
+[1.194s] creating /home/robertog/ros2_ws/install/gtg_ao/share/ament_index/resource_index
+[1.195s] creating /home/robertog/ros2_ws/install/gtg_ao/share/ament_index/resource_index/packages
+[1.195s] copying resource/gtg_ao -> /home/robertog/ros2_ws/install/gtg_ao/share/ament_index/resource_index/packages
+[1.195s] copying package.xml -> /home/robertog/ros2_ws/install/gtg_ao/share/gtg_ao
+[1.195s] creating /home/robertog/ros2_ws/install/gtg_ao/share/gtg_ao/launch
+[1.195s] copying launch/gtg_ao_launch.py -> /home/robertog/ros2_ws/install/gtg_ao/share/gtg_ao/launch
+[1.195s] creating /home/robertog/ros2_ws/install/gtg_ao/share/gtg_ao/config
+[1.195s] copying config/params.yaml -> /home/robertog/ros2_ws/install/gtg_ao/share/gtg_ao/config
+[1.195s] running install_egg_info
+[1.197s] Copying ../../build/gtg_ao/gtg_ao.egg-info to /home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages/gtg_ao-0.0.0-py3.10.egg-info
+[1.198s] running install_scripts
+[1.226s] Installing avoid_obstacles script to /home/robertog/ros2_ws/install/gtg_ao/lib/gtg_ao
+[1.226s] writing list of installed files to '/home/robertog/ros2_ws/build/gtg_ao/install.log'
+[1.262s] Invoked command in '/home/robertog/ros2_ws/src/gtg_ao' returned '0': PYTHONPATH=/home/robertog/ros2_ws/build/gtg_ao/prefix_override:/home/robertog/ros2_ws/install/gtg_ao/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/gtg_ao build --build-base /home/robertog/ros2_ws/build/gtg_ao/build install --record /home/robertog/ros2_ws/build/gtg_ao/install.log --single-version-externally-managed install_data
